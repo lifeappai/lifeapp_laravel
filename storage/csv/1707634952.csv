@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,Divide: 3x³/6x.,x²/2,x²/3,x²/4,x²/6,option1
+1,Divide: (4x³+8x²)/2x.,2x²+4x,2x²+2x,2x²+8x,2x²−4x,option1
+1,Divide: (4x³ + 6x² − 8)/(2x – 4),2x² + 3x + 2,2x² +3x – 2,2x² - 3x + 2,2x² - 3x - 2,option1
+1,Factorize the expression x²−4.,(x−2)(x+2),(x−4)(x+4),(x−1)(x+1),(x−3)(x+3),option1
+1,Factorize the expression 9y²−16.,(3y−4)(3y+4),(3y−2)(3y+2),(3y−1)(3y+1),(3y−3)(3y+3),option1
+1,Factorize the expression x²+6x+9.,(x+3)²,(x+2)²,(x+1)²,(x+4)²,option1
+1,Factorize the expression m²−10m+25.,(m−5)²,(m−3)²,(m−4)²,(m−2)²,option1
+1,Factorize the expression x²−1.,(x−1)(x+1),(x−2)(x+2),(x−3)(x+3),(x−4)(x+4),option1
+1,"If twice a number added to 5 is 17, what is the number?",6,7,8,9,option1
+1,The sum of three times a number and four is equal to the number minus 5. What is the number?,-9,-6,-5,-3,option4

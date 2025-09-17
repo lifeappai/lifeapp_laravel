@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,How many minutes are in 2 hours and 15 minutes?,130 minutes,135 minutes,145 minutes,150 minutes,option2
+1,What is the time in the 12-hour clock when the 24-hour clock shows 16:15?,4:15 PM,6:15 PM,6:15 AM,4:15 AM,option1
+1,"If it is 9:30 PM now, what will it be in 3 hours?",12:30 AM,12:30 PM,1:30 AM,1:30 PM,option1
+1,What is profit?,Losing money,Gaining money,Both A and B,None of the above,option2
+1,"If you sell a toy for ₹15 and it cost ₹10 to make, what is the profit?",₹ 5,₹ 10,₹ 15,₹ 25,option1
+1,What is the loss if you bought a book for ₹18 and sold it for ₹15?,₹ 3,₹ 15,₹ 18,₹ 33,option1
+1,"If you sell a shirt for ₹25 and the cost price is ₹30, what is the loss?",₹ 5,₹ 10,₹ 25,₹ 30,option1
+1,An item is bought for ₹40 and sold for ₹55. What is the profit percentage?,25%,30%,37.50%,50%,option3
+1,"If the cost price of a bicycle is ₹120 and the selling price is ₹150, what is the profit percentage?",20%,25%,30%,40%,option2
+1,"The average of 5, 10, and 15 is:",10,12,15,20,option1

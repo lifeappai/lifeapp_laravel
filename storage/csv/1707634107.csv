@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,John spent $15.75 on lunch and $8.95 on a movie. How much did he spend in total?,$24.70,$23.70,$24.60,$24.80,option1
+1,A rectangular garden has a length of 7.25 meters and a width of 4.5 meters. What is its area?,31.5 sq. meters,32.625 sq. meters,33.75 sq. meters,34.25 sq. meters,option2
+1,"If a bookshelf has 5 shelves, and each shelf can hold 2.75 kg of books, how much weight can the entire bookshelf hold?",11.25 kg,13.75 kg,14.25 kg,15.75 kg,option2
+1,A car travels at a speed of 55.5 km/h. How far will it travel in 2.5 hours?,138.75 km,140 km,143.75 km,146.25 km,option1
+1,(-7) + 4 =______,-3,-2,-11,3,option1
+1,(-5) - (-3) =______,-2,-8,2,8,option3
+1,(-6) × 2 =______,-12,12,-4,4,option1
+1,15(-3) =______,-15,15,-8,8,option1
+1,"If the ratio of boys to girls in a class is 3:5, and there are 24 students in total, how many boys are there?",9,12,15,18,option1
+1,"If the cost of 5 pens is ₹40, what is the cost of 8 pens?",₹ 64,₹ 56,₹ 52,₹ 48,option1

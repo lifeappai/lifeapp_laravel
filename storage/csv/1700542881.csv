@@ -1,0 +1,128 @@
+language_id,questions,option1,option2,option3,option4,answer
+6,How much net force is required to accelerate a 600 kg car at 4.00 m/s2?,2400N,2000N,4000N,8000N,option1
+,,,,,,
+6,A wagon in motion is being pulled in a straight line. if forces exerted on the wagon are unbalanced in the direction towards the pulling force the wagon will?,speed up.,slow down.,continue to move with a constant speed.,None of the above.,option1
+,,,,,,
+6,An object of mass 5 kg is sliding with a constant velocity of 10 m/s on a frictionless horizontal table. What will be the force required to keep the object moving with the same velocity?,0 N,2 N,6 N,8 N,option1
+,,,,,,
+6,"A water tanker filled up to 75% of its capacity is at rest. On sudden acceleration, how would the water in the tank move?",Move backward,Move forward,Be unaffected,Rise upwards,option1
+,,,,,,
+6,Object A has mass 10 kg and height of 3 cm while object B has mass 5 kg and height of 6 cm. Both the objects are at rest. Which object has greater inertia?,Object A,Object B,Both have the same inertia.,None of the above,option1
+,,,,,,
+6,"An object of mass 5 kg is moving with a constant acceleration of 5m/s2. Ignoring friction and air resistance, how much extra force is needed to keep the object moving in the same direction?",25 N,1 N,10 N,0 N,option4
+,,,,,,
+6,Two forces F1 = 39 N and F2 = 37 N are acting on an object in the opposite direction. In which direction will the object move?,Towards F1,Towards F2,It will stay at rest,Perpendicular to direction F1 and F2,option1
+,,,,,,
+6,"Which force is acting in the west direction when two forces of 50 N and 65 N act on a body resting in the East - West direction, causing it to start moving westward?",50 N,65 N,15 N,115 N,option2
+,,,,,,
+6,A machine gun fires a bullet of mass 50 g with a velocity of 1000 ms-1. The man holding it can exert a maximum force of 200 N on the gun. How many bullets can he fire per second at the most?,One,Two,Three,Four,option4
+,,,,,,
+6,What is the force applied on a body with 5000 g of mass and an acceleration of 7 m/s2?,35 N,35 kN,714.28 N,1.4 N,option1
+,,,,,,
+6,"If a body of mass A kg is moving with a velocity B m/s, what will be the expression for the momentum, P of the body?",P = A + B,P = A - B,P = AB,P = A/B,option3
+,,,,,,
+6,"A traveler is hiking and carrying 80 kgm/ s of momentum. If she has a mass of 70 kg, what is her speed?",1.14 m/s,5600 m/s,0.88 m/s,10 m/s,option1
+,,,,,,
+6,"Which of the following expressions indicates that in the absence of any external force (F) on a body of mass m, it will continue to move with constant velocity?",If F = 0 then v = u = 0 m/s ? body comes to rest,If t = 0 then v = u ? body moves with constant velocity,If F = 0 then v = u ? Body moves with constant velocity,if m = 0 then F = 0 ? there is no external force,option3
+,,,,,,
+6,"A ball of mass 0.5 kg is moving with a velocity of 20 m/s. If the velocity-time graph for this ball is a horizontal line parallel to the time axis, then the velocity of the ball at the end of 25 s will be:",40 m/s,20 m/s,10 m/s,250 m/s,option2
+,,,,,,
+6,A force of 255 N is exerted on an object of mass 15 kg that is located on a sheet of perfectly smooth ice. Calculate the acceleration of the object.,3825 m/s2,17 m/s2,None of the above,Not enough information,option2
+,,,,,,
+6,"What's the acceleration of an 800 kg car at rest on flat ground when 1500 N is applied to the front and 1300 N to the back, with forward as positive?",0.25 m/s2, - 0.25 m/s2,4 m/s2, - 4 m/s2,option2
+,,,,,,
+6,A car driver of mass 50 kg travelling at a speed of 10 m/s applies brakes and brings the car of mass 300 kg to rest in 20s. How much force is needed to decelerate the car?,- 175 N,- 25 N,- 150 N,- 125 N,option1
+,,,,,,
+6,Velocity-time graph of an object of a certain mass is parallel to the time axis. What force is acting on the object?,Mass x acceleration due to gravity,Cannot be determined,Mass x acceleration,Zero,option4
+,,,,,,
+6,A car of mass 1000 kg standing on ground exerts a force of 2500N on the ground. What will be the force exerted by the ground on the car?,2500 kN,2500 N,250 N,2.5 N,option2
+,,,,,,
+6,A motorcycle of mass 200kg moving with a velocity of 108 km/h collides with a tree and comes to a stop in 6 s. What will be the force exerted by the motorcycle on the tree?,-1000 N,1000 N,-1200 N,1200 N,option1
+,,,,,,
+6,A car of mass 900 kg moving at a speed of 72 km/hr is stopped by applying brakes in 10 s. Calculate the force applied by the brakes.,1800 N,-500 N,-1800 N,360 N,option1
+,,,,,,
+6,A bullet of mass 20g is fired from a rifle. The bullet takes 0.004s to move through its barrels and leave with a velocity of 280m/s .What is the force exerted on the bullet by the rifle?,140 N,1400 N,1400 kN,14000 kN,option2
+,,,,,,
+6,A fighter hits a punching bag and brings it from rest up to a speed of 30 m/s in 0.06 s. What is the force of impact on the punching bag if its mass is 50 kg?,25 N,25 kN,250 N,250 kN,option2
+,,,,,,
+6,"On a carrom board, a carrom coin of mass 0.181 kg is at rest. What will happen if a striker of mass of 0.035 kg hits the coin from behind?",Coin will stay at rest,Only coin will move forward,Only striker will move forward,Coin will move forward and striker will move backward or get deflected.,option4
+,,,,,,
+6,A 2.5 kg ball moving at 5 m/s hits a corner and changes its speed and direction. The speed reduces to 1.5 m/s. What is the magnitude of the change in momentum of the ball?,12.5 kg m/s,3.75 kg m/s,16.25 kg m/s,8.75 kg m/s,option4
+,,,,,,
+6,"Car A of mass 1800 kg travelling at 18 m/s collides with another car B of mass 1200 kg travelling at 12 m/s in the same direction. After collision, the velocity of car A becomes 10 m/s. Calculate the velocity of car B after collision.",22 m/s,24 m/s,26 m/s,28 m/s,option2
+,,,,,,
+6,A gun of mass 4kg fires a bullet of mass 40g. The bullet takes 0.004s to move through the barrel of the gun and acquires a velocity of 125 m/s. Calculate the velocity with which the gun recoils.,1 m/s,1.25 m/s,1.6 m/s,1 m/s,option2
+,,,,,,
+6,"What is the velocity of the combined object after a 40 kg and a 20 kg body collide and stick together, with initial velocities of 10 m/s and 50 m/s, moving towards each other?",10m/s towards the direction of the 20 kg object.,10m/s towards the direction of the 40 kg object.,20m/s towards the direction of the 20 kg object.,20m/s towards the direction of the 40 kg object.,option1
+,,,,,,
+6,The velocity of a body of mass 25 kg increases from 7 m/s to 10 m/s when a force acts on it for 5 s. What is the gain in momentum per second?,20 kg.m/s,40 kg.m/s,10 kg.m/s,15 kg.m/s,option4
+,,,,,,
+6,A 2.5 kg ball moving at 5 m/s hits a corner and changes its speed and direction. The speed reduces to 1.5 m/s. What is the magnitude of the change in momentum of the ball?,12.5 kg.m/s,3.75 kg.m/s,16.25 kg.m/s,8.75 kg.m/s,option4
+,,,,,,
+6,Two vehicles moving towards each other with the same speed collide. After collision vehicle 1 moves back x distance and vehicle 2 moves back (x + y) distance. Which vehicle has more mass?,Vehicle 1,Vehicle 2,Both have the same mass,Cannot be determined,option1
+,,,,,,
+6,A boy of 45 kg mass is running with a velocity of 3 m/s. He jumps over a stationary cart of 4 kg while running. Find the velocity of the cart after the boy jumps on it.,2.95 m/s,2.85 m/s,2.75 m/s,2.65 m/s,option3
+,,,,,,
+6,"What is the velocity of the second object, with a mass of 1800 g and initially moving at 2 m/s in the same direction as the first object (1500 g, initially at 3 m/s), after a collision that results in the first object having a velocity of 2 m/s?",2.65 m/s,2.71 m/s,2.83 m/s,3.00 m/s,option3
+,,,,,,
+6,"What will be the velocity of Kris and Tom after their collision in a football game, with Kris (45 kg) running at 2 m/s and Tom (55 kg) running at 4 m/s, considering negligible external forces?",1,-1 m/s,-1.3 m/s,1.3 m/s,option3
+,,,,,,
+6,"What is the approximate force of gravity on a body of mass 620 kg lying on the surface of the earth? Assuming mass of the earth, 6 x 10²? kg, radius of the earth, 6.4 x 10? m, and G = 6.7 x 10?¹¹ Nm² / kg².",6200 N,6000 N,6085 N,6105 N,option3
+,,,,,,
+6,"The mass of the sun is 2 x 10³? kg and the mass of the earth is 6 x 10²? kg. If the force of gravitation between them is 3.55 X 1022 N, calculate the average distance between the sun and the earth is 1.5 x 10? km.",1.5 x 10? km.,1.5 X 10?³³ N,1.5 X 1022 N,1.5 X 10¹? N,option1
+,,,,,,
+6,What is the gravitational force between two masses of 30 kg and 50 kg separated by a distance of 4m? G = 6.67 x 10?¹¹ N m²/kg².,5.3 x 10¹0 N,6.25 x 10?11 N,6.25 x 10?9 N,6.25 x 10-13 N,option3
+,,,,,,
+6,"A force of 1.8 x 10-5 Kilonewtons acts between two bodies separated by a distance of 6 m. If the mass of one of the bodies is 90 kg, find the mass of the other body. Take the value of G = 6 x 10-11 N m²/kg².",0.12 kg,120 kg,1.2 x 108 kg,1.2 x 106 kg,option3
+,,,,,,
+6,"A car initially at rest, falls off a hill and drops to the ground in 0.2 minutes. Let g = 10m/s². What is the speed of the car on striking the ground?",2 m/s,60 m/s,20 m/s,120 m/s,option3
+,,,,,,
+6,"A car initially at rest, falls off a hill and drops to the ground in 0.2 minutes. Let g = 10m/s². What is the height of the hill from the ground?",720 m,72 m,72 km,720 km,option1
+,,,,,,
+6,An aeroplane takes off from ground and stands still in air at 0.5 km from the ground. What is the take off velocity of the aeroplane?,3.1 m/s,-3.1 m/s,100 m/s,-100 m/s,option3
+,,,,,,
+6,A ball drops from a tall building and strikes the sidewalk 4.6 seconds later. What is the velocity of the ball when it hits the sidewalk? Take g = 10 m/s².,0.46 m/s,2.46 m/s,Need more information,None of the above,option4
+,,,,,,
+6,A ball is thrown vertically upwards and rises to a height of 20 m. Calculate the velocity with which the ball was thrown upwards. Take g = 10 m/s².,20 m/s,40 m/s,30 m/s,10 m/s,option1
+,,,,,,
+6,The weight of the body at a certain place is 653 N. The acceleration due to gravity at that point is 10 m/s². What is the weight of the object at a place where acceleration due to gravity is zero?,65.3 N,6.53 N,0 N,0.65 N,option3
+,,,,,,
+6,Acceleration due to gravity on Mars will depend on what factors?,Mass of Earth,Mass of Mars,Radius of Mars,Both 'b' and 'c' ,option4
+,,,,,,
+6,"Imagine the mass of the planet mercury to be M. If mercury could somehow sit on Saturn of mass S, what would be the mass of mercury?",M + S,M/S,M x S,M,option4
+,,,,,,
+6,Bobo weighs 35 N. What will be his weight on a planet where acceleration due to gravity is one seventh?,7 N,5 N,245 N,0 N,option2
+,,,,,,
+6,If your weight on Earth is 120 N what will be your weight on the new planet with twice the Earth's radius but the same mass?,120 N,60 N,30 N,Need more information,option3
+,,,,,,
+6,3332 J of work done by a machine to lift a mass of 34 kg vertically upward. What is the height at which the mass is lifted upward? (g = 9.8 m/s2),10 m,100 m,1 m,1000 m,option1
+,,,,,,
+6,"If an object of mass m has kinetic energy of k joules, what is its velocity, V?",V = 2k/m,V = 4k/m,V = ?(2k/m),V = ½ km,option3
+,,,,,,
+6,"Constant force of 7N is applied on a block of 20 kg for a distance of 4 m, what is the K.E acquired by the block?",28 J,2.8 J,14 J,140 J,option1
+,,,,,,
+6,A body of mass 200 g moving on a wheel has a final K.E of 50 J. It comes to rest and 90% of energy is lost due to friction. What is the initial velocity of the body?,10 m/s,5 m/s,10?50 m/s,25 m/s,option3
+,,,,,,
+6,How fast should a girl of 37 kg run so that her K.E is 666 J?,18 m/s,36 m/s,6 m/s,9 m/s,option3
+,,,,,,
+6,Two bodies A and B of equal masses are kept at heights of 4h and 10h respectively. What will be the ratio of potential energy of A to that of B?, 2 : 5, 5 : 2, 1 : 4, 4 : 1,option1
+,,,,,,
+6,"To what height should a box of mass 75 kg be lifted, so that its potential energy may become 5880 joules?",5m,6 m,7 m,8 m,option4
+,,,,,,
+6,A body of mass 4kg is thrown vertically upwards with an initial velocity of 38 m/s. What will be its potential energy at the end of 7s? Take g = 10m/s2.,740 KJ,660 KJ,840 J,810 J,option3
+,,,,,,
+6,Potential energy of a body on the earth is PE. What will be its PE on the moon if the height of the object from the surface of the earth is the same as its height from the surface of the moon?,PE,6 PE,? PE,0,option3
+,,,,,,
+6,A stone weighing 1 kg is dropped from rest from a height of 4 metres above the ground. What will be its velocity when it is just about to hit the ground?,2?10 m/s,4?5 m/s,80 m/s,40 m/s,option2
+,,,,,,
+6,Two army persons A and B each of weight of 700 N climb up a rope through a height of 10 m. A takes 100 s while B takes 20 s to achieve this task. What is the ratio of the power of person A and B?, 1 : 2, 5 : 1, 2 : 1, 1 : 5,option4
+,,,,,,
+6,"A girl claps and hears the echo after the reflection from a cliff which is 660m away. If the velocity of the sound is 330m/s, calculate the time taken for hearing the echo?",3s,2s,4s,6s,option3
+,,,,,,
+6,"An echo is heard after 5s. Determine the distance of the reflecting surface, if the velocity of sound is 340 m/s.",800m,825m,875m,850m,option4
+,,,,,,
+6,A marine survey ship emits a sound wave straight to the sea bed. It detects an echo 4.0 s later. Which is a possible depth of the sea? Speed of sound in water is ~1500 m/s.,6000 m,1500 m,3000 m,10000 m,option3
+,,,,,,
+6,"A bat releases a sound wave forward. It detects an echo 0.8s later. If the speed of sound in air is 300 ms-1, how far is the bat away from the obstacle in front?",120 m,240 m,300 m,375 m,option1
+,,,,,,
+6,A child hears an echo from a cliff 4s after the sound from a powerful cracker is produced. How far away is the cliff from the child? Velocity of sound in the air is 344m/s.,1376 m,688 m,344 m,2752 m,option2

@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"If a quadrilateral has all sides that are equal and all angles as 90 degrees, what type of quadrilateral is it?",Parallelogram,Rhombus,Rectangle,Square,option4
+1,What is the sum of the angles in a rectangle?,180 degrees,360 degrees,540 degrees,720 degrees,option2
+1,"In a trapezium, what is the sum of the angles at the non-parallel sides?",90 degrees,180 degrees,360 degrees,720 degrees,option2
+1,How many vertices does a cube have?,4,6,8,12,option3
+1,What is the name of a polygon with 10 sides?,Decagon,Dodecagon,Nonagon,Octagon,option1
+1,"If a line divides an angle into two equal parts, what is it called?",Perpendicular bisector,Angle bisector,Line of symmetry,Parallel bisector,option2
+1,What is the name of a 3D shape with all faces being rectangles?,Sphere,Cylinder,Cuboid,Cone,option3
+1,How many sides does a regular dodecagon have?,10,12,15,20,option2
+1,What is the purpose of tally marks in representing data?,To compare quantities,To count by fives,To show percentages,To represent continuous data,option2
+1,"If each picture in a pictograph represents 2 units, how many units are represented by four pictures?",4,6,8,10,option3

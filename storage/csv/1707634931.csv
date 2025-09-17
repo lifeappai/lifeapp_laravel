@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,Which of the following sets of numbers forms a Pythagorean triplet?,"9, 12, 15","7, 24, 25","5, 5, 10","6, 8, 10",option1
+1,What is the cube root of 125?,5,3,7,2,option1
+1,Simplify 2-⁴×3².,9,16,16/9.,9/16.,option4
+1,Compare 8×10³ and 3×10⁴.,8×10³ is greater.,3×10⁴ is greater.,They are equal.,Cannot be determined.,option2
+1,"If the cost of 5 books is Rs. 250, how much will 8 books cost if the cost is directly proportional to the number of books?",Rs. 320,Rs. 500,Rs. 400,Rs. 480,option3
+1,"In a company, the ratio of male to female employees is 3:4. If there are 420 employees in total, how many are female?",240,280,320,360,option1
+1,A shopkeeper bought a watch for Rs. 4500 and sold it at a profit of 40%. What was the selling price?,Rs. 1800,Rs. 2700,Rs. 4500,Rs. 6300,option4
+1,"If the sales tax rate is 12% and you purchase a laptop for Rs. 75,000, what will be the total cost including tax?","Rs. 84,000","Rs. 84,600","Rs. 84,750","Rs. 85,000",option1
+1,"A furniture set costs Rs. 28,000, and the VAT rate is 18%. What is the total cost including VAT?","Rs. 33,040","Rs. 33,440","Rs. 32,960","Rs. 32,240",option1
+1,"If the GST rate is 15%, and the initial cost of a refrigerator is Rs. 55,000, what is the total cost including GST?","Rs. 63,250","Rs. 63,750","Rs. 64,250","Rs. 64,750",option1

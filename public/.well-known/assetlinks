@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.life.lab",
+            "sha256_cert_fingerprints": [
+                "B5:67:0A:9E:63:35:2C:9D:9E:D1:46:EC:12:D2:7F:6C:D5:A3:95:D2:0D:9B:D4:88:07:74:3B:62:40:0F:2B:FA",
+                "22:92:9E:7A:BF:A9:4A:7A:6D:90:01:B5:E2:79:93:E8:F8:9B:23:1F:DD:A5:02:FE:4E:CE:20:49:1D:24:3C:B0"
+            ]
+        }
+    }
+]

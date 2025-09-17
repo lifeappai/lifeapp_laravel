@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"If the average of three numbers is 25 and two of them are 20 and 30, what is the third number?",10,25,40,45,option1
+1,"The average of 8, 15, and 19 is:",12,14,15,18,option2
+1,"If the average of four numbers is 50 and three of them are 40, 60, and 70, what is the fourth number?",30,40,50,60,option1
+1,"The average weight of three bags is 12 kg. If two of them weigh 8 kg and 15 kg, what is the weight of the third bag?",5 kg,7 kg,10 kg,13 kg,option1
+1,"If the average of five numbers is 30 and four of them are 25, 35, 40, and 45, what is the fifth number?",2,4,5,10,option3
+1,"In a triangle, if all sides are of equal length, it is called:",Scalene,Isosceles,Equilateral,Right-angled,option3
+1,"If a triangle has one angle greater than 90 degrees, it is called:",Acute-angled,Right-angled,Obtuse-angled,Equilateral,option3
+1,A triangle with all angles less than 90 degrees is called:,Acute-angled,Right-angled,Obtuse-angled,Equilateral,option1
+1,"In an isosceles triangle, what is true about the sides?",All sides are equal,Only two sides are equal,No sides are equal,All sides are proportional,option2
+1,A triangle with three unequal sides and three unequal angles is called:,Scalene,Isosceles,Equilateral,Right-angled,option1

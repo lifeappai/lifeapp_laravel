@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"What is the value of the digit 7 in the number 8,734?",7,70,700,"7,000",option3
+1,"In the number 6,248, which digit is in the hundred's place?",6,2,4,8,option2
+1,"What is the sum of 4,352 and 2,198?","6,550","6,450","7,550","7,450",option1
+1,Which of the following is a prime number?,12,17,22,27,option2
+1,What is the Roman numeral for 50?,X,L,C,D,option2
+1,Convert the fraction 3/5 to an equivalent fraction with the denominator 10.,1/10.,6/10.,2/10.,4/10.,option2
+1,Which pair of numbers are co-prime?,8 and 12,15 and 25,21 and 28,9 and 16,option4
+1,What are the twin primes between 20 and 30?,23 and 25,29 and 31,21 and 23,27 and 29,option3
+1,"Round off 6,837 to the nearest hundred.","6,800","6,830","6,840","6,900",option1
+1,"What is the result of 4,567 multiplied by 9?","41,103","40,103","41,673","40,673",option4

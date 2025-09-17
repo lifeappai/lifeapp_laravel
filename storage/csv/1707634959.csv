@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"The bases of a trapezium are 8 cm and 12 cm, and the height is 5 cm. What is the area?",40 cm²,50 cm²,60 cm²,70 cm²,option2
+1,"If the diagonal of a quadrilateral is 12 cm and perpendicular height from opposite vertices to the diagonal is 15 cm, and 10 cm, find its area.",90 cm²,120 cm²,150 cm²,180 cm²,option3
+1,"The diagonals of a rhombus are 16 cm and 30 cm, and the angle between them is 60 degrees. Find the area.",240 cm²,360 cm²,480 cm²,600 cm²,option1
+1,"The length of a rectangular field is 14 m, and its breadth is 8 m. What is the area of the field?",72 m²,112 m²,116 m²,128 m²,option1
+1,"If each side of a cube is 4 cm, what is its total surface area?",48 cm²,64 cm²,96 cm²,256 cm²,option3
+1,"The length, width, and height of a cuboid are 5 cm, 3 cm, and 8 cm respectively. Find its total surface area.",148 cm²,158 cm²,168 cm²,220 cm²,option2
+1,"The radius of a cylinder is 7 cm, and its height is 10 cm. Calculate its total surface area.",220π cm²,230π cm²,238π cm²,248π cm²,option3
+1,The volume of a cube is 125 cm³. What is the length of each side?,3 cm,4 cm,5 cm,6 cm,option3
+1,"The bases of a trapezium are 10 cm and 15 cm, and the height is 8 cm. What is the area?",100 cm²,120 cm²,130 cm²,140 cm²,option1
+1,The diagonals of a rhombus are 18 cm and 24 cm. Find the area.,216 cm²,270 cm²,324 cm²,378 cm²,option1

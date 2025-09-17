@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"In a right-angled triangle, the side opposite the right angle is called:",Hypotenuse,Adjacent side,Opposite side,Base,option1
+1,The distance across a circle through its center is called:,Radius,Diameter,Circumference,Arc,option2
+1,The outer boundary of a circle is called:,Radius,Diameter,Circumference,Arc,option3
+1,"If the diameter of a circle is 10 cm, what is the radius?",5 cm,10 cm,15 cm,20 cm,option1
+1,The ratio of the circumference to the diameter of a circle is approximately:,3.14,2.5,1.5,0.5,option1
+1,What is the formula for the circumference of a circle with radius 'r'?,C = 2πr,C = πr,C = πr2,C = 4πr,option1
+1,"If the circumference of a circle is 30 cm, what is the diameter?",95 cm,9.5 cm,95.5 cm,100 cm,option2
+1,"If the height of a bar in a bar graph represents the number of apples, what does the length of the bar represent?",Time,Categories,Quantities,Colors,option2
+1,"In the bar representing favourite fruits of students, if oranges is higher than the bar representing bananas, what does it mean?",Oranges are cheaper,Oranges are more expensive,Oranges are more favourite,Oranges are less favourite,option3
+1,How can you compare the quantities of two categories in a bar graph?,Compare the lengths of their bars,Compare their colors,Compare their positions on the graph,Compare the labels,option1

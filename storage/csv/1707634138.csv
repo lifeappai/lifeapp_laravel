@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,A rectangular field has a length of 25 meters and a width of 18 meters. What is the perimeter of the field?,36 meters,66 meters,86 meters,126 meters,option3
+1,The area of a square garden is 121 square meters. What is the length of one side of the square?,8 meters,10 meters,11 meters,12 meters,option3
+1,"The base of a parallelogram is 15 centimeters, and its height is 12 centimeters. What is the area of the parallelogram?",90 square centimeters,120 square centimeters,150 square centimeters,180 square centimeters,option4
+1,"A triangle has sides of length 9 cm, 12 cm, and 15 cm. What is the area of the triangle?",27 square cm,36 square cm,45 square cm,54 square cm,option1
+1,"If the circumference of a circle is 31.4 centimeters, what is its radius? (Take π as 3.14)",2 cm,5 cm,7 cm,10 cm,option2
+1,The diameter of a circle is 16 meters. What is the area of the circle?,64π square meters,128π square meters,256π square meters,512π square meters,option1
+1,The circumference of a circular race track is 220 meters. What is its radius?,14 meters,21 meters,28 meters,35 meters,option4
+1,The area of a circular garden is 154 square meters. What is its circumference?,22 meters,28 meters,35 meters,44 meters,option4
+1,The diameter of a circular water tank is 12 meters. What is the volume of the tank? (Assume π as 3.14 and the tank's height is 8 meters.),150.72 cubic meters,226.08 cubic meters,452.16 cubic meters,904.32 cubic meters,option4
+1,A circular pizza has a diameter of 20 inches. What is the area of the pizza? (Take π as 3.14),100π square inches,200π square inches,314 square inches,400 square inches,option1

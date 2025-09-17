@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,Which of the following types of graphs is suitable for representing the distribution of ages in a population?,Histogram,Bar Graph,Pie Chart,Line Graph,option1
+1,"If a pie chart represents the expenditure of a household, and one sector is labelled ""Rent: 30%"", what does this indicate?",Rent is 30% of the total expenditure,Rent occupies 30% of the area of the chart,Rent is the largest expense,Rent is the smallest expense,option2
+1,"If a line graph shows the temperature over several days, what does the slope of the line represent?",The rate of change of temperature,The average temperature,The maximum temperature,The minimum temperature,option1
+1,"If a linear graph represents the growth of a plant over time, what does the slope of the line indicate?",The rate of growth,The starting height of the plant,The total growth,The age of the plant,option1
+1,"If you roll a fair six-sided die, what is the probability of rolling an even number?",1/6.,1/3.,1/2.,2/3.,option3
+1,"If the heights of three buildings are given as 20 m, 30 m, and 25 m, what is the suitable scale for constructing a bar graph?",1 unit = 10 m,1 unit = 5 m,1 unit = 20 m,1 unit = 30 m,option2
+1,"In a pie chart representing the distribution of fruits in a basket, if the apple slice is twice as large as the orange slice, what can you conclude?",There are more apples than oranges,There are more oranges than apples,The number of apples and oranges is the same,Cannot be determined,option1
+1,"If the speed of a car is recorded every hour during a journey, what type of graph is most suitable for representing this data?",Line Graph,Bar Graph,Histogram,Pie Chart,option1
+1,"If you draw a card from a standard deck of 52 cards, what is the probability of drawing a red card?",1/4.,1/2.,3/4.,1/3.,option2
+1,"If you toss a fair coin, what is the probability of getting heads?",1/6.,1/2.,2/3.,1/4.,option2

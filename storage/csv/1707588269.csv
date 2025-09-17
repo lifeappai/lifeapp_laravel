@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"Divide 8,250 by 10.",825,82.5,82,825,option1
+1,Which of the following is not divisible by 9?,354,567,432,621,option1
+1,Find the common factors of 24 and 36.,"2, 3, 4, 6","1, 5, 7","8, 12","9, 11",option1
+1,Compare the fractions: 3/4 and 5/8.,3/4 > 5/8,3/4 < 5/8,3/4 = 5/8,Cannot be determined,option1
+1,Add 2.7 and 3.89.,6.59,6.79,6.69,7.59,option4
+1,"Which of the following is the correct way to write 4,235 in expanded form?","4,000 + 200 + 30 + 5","4,000 + 200 + 5 + 30",400 + 30 + 5 + 2,400 + 30 + 5 + 0.2,option1
+1,"What is the sum of 3,467 and 2,598?","6,965","5,985","5,065","6,065",option4
+1,"In the number 9,324, which digit is in the hundreds place?",9,3,2,4,option2
+1,What is the result of multiplying 423 by 7?,"2,961","2,943","3,141","3,213",option1
+1,"If you round off 6,879 to the nearest hundred, what do you get?","6,800","6,900","6,880","6,870",option2

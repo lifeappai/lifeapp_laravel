@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"If two lines are parallel, what can be said about the angle between these lines?",0 degrees,180 degrees,90 degrees,360 degrees,option1
+1,"If two angles are complementary, what is the sum of their measures?",45 degrees,90 degrees,180 degrees,360 degrees,option2
+1,What is the radius of a circle with a diameter of 14 cm?,3.5 cm,7 cm,14 cm,28 cm,option2
+1,"In a triangle, if one angle is 90 degrees, what is the classification of the triangle?",Equilateral,Isosceles,Scalene,Right-angled,option4
+1,Identify the type of triangle where all sides are of different lengths.,Equilateral,Isosceles,Scalene,Right-angled,option3
+1,What is the sum of the angles in a quadrilateral?,180 degrees,360 degrees,540 degrees,720 degrees,option2
+1,"If the exterior angle of a triangle is 120 degrees, what is the measure of its interior angle?",30 degrees,60 degrees,90 degrees,120 degrees,option2
+1,A circle is divided into 8 equal parts. What is the measure of each sector's central angle?,22.5 degrees,30 degrees,45 degrees,60 degrees,option3
+1,What is the sum of the interior angles in a pentagon?,540 degrees,720 degrees,900 degrees,1080 degrees,option1
+1,Identify a polygon with seven sides.,Hexagon,Heptagon,Octagon,Nonagon,option2

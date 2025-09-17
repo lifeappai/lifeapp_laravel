@@ -1,0 +1,102 @@
+language_id,questions,option1,option2,option3,option4,answer
+6,"Plane mirror reflects clock with no numbers, image formed by hand of the clock shows 3:30. What is the real time?",03:30,09:15,09:30,12:15,option3
+,,,,,,
+6,Which statement about a real image is correct?,Can be seen on a screen,Can be seen in the mirror,Can be touched,Can be clicked,option1
+,,,,,,
+6,Is it possible to photograph a virtual image?,No,Yes,Sometimes,"Yes, provided that object is virtual",option2
+,,,,,,
+6,Which of the following shows lateral inversion?,Plane mirror,Convex mirror,Concave mirror,Concave lens,option1
+,,,,,,
+6,"When the object is placed very close to a convex lens, the image formed is virtual, erect, and",real,smaller in size,magnified,bigger in size,option3
+,,,,,,
+6,What can be said about the size of the image formed in a convex lens?,Image formed is always enlarged.,Image formed is always diminished.,Image formed is always of the same size as the object.,Size of the image formed depends on the position of the object.,option4
+,,,,,,
+6,"Sahil made a narrow beam of sunlight fall on a glass prism. He allowed the light to come out from the other surface of the prism on a white wall. On the white wall, he observed a band of:",1 colour,White light,7 colours,No light,option3
+,,,,,,
+6,Sneha made a small top with a circular disc with seven rainbow colours. She started rotating the top fast. Which colour would she observe on rotating the disc?,Black,Green,White,Blue,option3
+,,,,,,
+6,Karan made a narrow beam of sunlight fall on a glass prism. He allowed the light to come out from the other surface of the prism on a white wall. What will he observe on the white wall?,1 colour,White light,7 colours,No light,option3
+,,,,,,
+6,"In a newton’s colour disc, all colours mix together to form a whitish colour. Why is a pure white colour not formed?",Colours don’t mix well,Colours which mix are not in the purest form,Pure white colour does not exist,Newton’s colour disc might be defective,option2
+,,,,,,
+6,What property of material should be applied in making handles of cooking utensils?,Good thermal conductor,Thermal insulator,Thermal radiator,Hard and strong,option2
+,,,,,,
+6,Which method of heat transfer can take place in a vacuum?,Conduction,Convection,Radiation,All of the above,option3
+,,,,,,
+6,A marble tile would feel cold as compared to a wooden tile on a winter morning because:,It is a better conductor of heat than a wooden tile.,It is a better insulator of heat than a wooden tile.,It reflects more heat than a wooden tile.,None of these.,option1
+,,,,,,
+6,What type of heat transfer happens when you burn your finger by touching a hot pan?,Radiation,Conduction,Convection,All of the above,option2
+,,,,,,
+6,Select all the properties of an element used in an electric iron:,Should have a very high melting point,Should be a poor conductor of electricity ,Should not be a very good conductor of electricity,Should have a low melting point to prevent causing of fire,option1
+,,,,,,
+6,Many electric appliances like laptops and ovens come with a rotating cooling fan. What is the use of this cooling fan?,To prevent overheating of the device,To maintain stability of the device,To prevent people working with them from feeling very hot,To prevent dust from entering inside the circuit board,option4
+,,,,,,
+6,The wires for making electric circuits do not normally become hot but a filament of an electric bulb becomes hot. Why?,The wire in electric circuits is made of insulator material.,The wire in electric circuits has an insulator coating.,The wire in electric circuits is made of a very good conductor. ,The wire in electric circuits utilizes the heat produced.,option3
+,,,,,,
+6,How do miniature circuit breakers work?,By having pieces of metal wire that melt when current gets too high,By having a switch that will break a circuit if the current gets too high,By having pieces of metal wire that melt when current gets too low,By having a switch that will break a circuit if the current gets too low,option2
+,,,,,,
+6,Using a high current fuse in a low current appliance is very:,Safe,Dangerous,Necessary,Unnecessary,option2
+,,,,,,
+6,Choose the statement which is NOT correct in the case of an electric fuse.,Fuses are inserted in electric circuits of all buildings.,There is a maximum limit on the current which can safely flow through the electric circuits.,There is a minimum limit on the current which can safely flow through the electric circuits.,If a proper fuse is inserted in a circuit it will blow off if current exceeds the safe limit.,option3
+,,,,,,
+6,A fuse is used in a laptop and another fuse is used in a refrigerator. Choose the correct statement.,Melting point of a laptop fuse wire > melting point of the refrigerator fuse wire.,Melting point of a laptop fuse wire < melting point of the refrigerator fuse wire.,Melting point of a laptop fuse wire = melting point of the refrigerator fuse wire.,A laptop doesn’t need a fuse at all.,option2
+,,,,,,
+6,An iron nail wound up with wire which is carrying current is suspended freely. In which direction will it rest?,East - West,North - East,North - West,North - South,option4
+,,,,,,
+6,"When electric current passes through a wire it behaves like a magnet, it is because of………….effect of current.",Conduction,Magnetic,Non-magnetic,All of these,option2
+,,,,,,
+6,What will happen to a needle of a magnetic compass when brought near an electric circuit?,No change occurs,The magnetic needle deflects,The magnetic needle becomes red hot,The magnetic needle behaves like a fuse,option2
+,,,,,,
+6,A wooden block is wound by conducting wires and the current is switched on and attracts the iron pins with little strength. Choose the correct options.,Wooden block does not have electromagnetic effects.,Only wire shows some electromagnetic properties.,Wooden block must be broken and hence does not get electromagnetic properties.,Both ‘a’ and ‘b’,option4
+,,,,,,
+6,A faster moving car covers:,Less distance in more time,More distance in more time,Less distance in less time,More distance in less time,option4
+,,,,,,
+6,Gappu cycled a distance of 5 km in 60 minutes. What is her cycling speed?,1 km per hour,5 km per hour,? km per hour,0.5 km per hour,option2
+,,,,,,
+6,Car A covered a distance of 25 km in 60 minutes. Car B covered a distance of 68 km in two hours. Which car has more speed?,Car A,Car B,Cannot be said,Both cars have the same speed,option2
+,,,,,,
+6,If a pendulum is oscillating at 10 cycles in 1 second then what is its time period?,1 second,10 seconds,0.5 second,0.1 second,option4
+,,,,,,
+6,A simple pendulum is attached with a metallic ball of weight 250 grams and it completes 60 oscillations in a certain time. The pendulum has a time period of 0.5 s. Time required to complete one oscillation?,30 seconds,15 seconds,0.5 seconds,60 seconds,option3
+,,,,,,
+6,Calculate the time period of a pendulum if it takes 15 seconds to complete 5 oscillations.,3 seconds,75 seconds,0.33 seconds,0.066 seconds,option1
+,,,,,,
+6,Time taken by the bob to move from A to O is t1 and from O to B is t2. The time period of this simple pendulum is:,(t1 + t2),2(t1 + t2),3(t1 + t2),4(t1 + t2),option2
+,,,,,,
+6,A pendulum takes 27 seconds to complete 10 oscillations. What is its time period?,2.7 s,27 s,10 s,270 s,option1
+,,,,,,
+6,Sahil is explaining to Reema about the maximum and minimum temperature displayed daily in the weather bulletin. Which one is the correct explanation?,Highest day temperature and lowest night temperature of the day.,Highest day temperature and highest night temperature of the month.,Temperature recorded at 12 noon and at midnight (00.00 hrs).,Average highest temperature of day and average lowest temperature of night.,option1
+,,,,,,
+6,A flag mounted on a flag post near the sea coast flutters in the direction of the sea. At what time of the day does this happen?,Midnight,Afternoon,Early morning,Throughout the day,option1
+,,,,,,
+6,Cold air from surroundings rushes to take the place of the winds flowing from the ocean towards the land. What does this result in?,Convection currents,Ocean currents,Tides,Pressure difference,option1
+,,,,,,
+6,Thunderstorms develop in which of the following conditions?,Hot and humid conditions,Humid and cold conditions,Only hot conditions,Only humid conditions,option1
+,,,,,,
+6,Which of the following statements is/are false?,All storms are high-pressure systems.,A wind storm's destructive capacity increases with increases in wind speed.,Wind cycles are caused due to uneven heating of land and water as well as the shape of Earth.,Both ‘a’ and ‘c’,option1
+,,,,,,
+6,"During the formation of rain, what happens when water vapor changes to raindrops?",Heat is absorbed.,Heat is released.,Heat is first absorbed and then released.,There is no exchange of heat.,option2
+,,,,,,
+6,What is the best thing to do when strong winds risk blowing over a hut having a weak thatched roof?,Open the doors and windows,Close all the doors and windows,Make holes in the roof,Burn wood inside,option1
+,,,,,,
+6,Following are precautions one must take in case a storm is accompanied by lightning. Which one of them is incorrect? ,Do not take shelter under a tree.,Do not take shelter under an umbrella with a metallic end.,"Do not take shelter in open garages, storage sheds, etc.",Do not take shelter in a bus in the open.,option4
+,,,,,,
+6,Gappu planted a plant in a pot and took utmost care of it by watering it now and then. But one day it died. What may be the reason for it?,Dry soil,Lack of carbon dioxide,Excessive heat,Overwatering,option4
+,,,,,,
+6,Bryophyllum has black parts at the boundary of leaves plants. What is the function of this black part?,Black parts indicate that the poor health of the plant,Black parts help to absorb more sunlight,Black parts produce new leaves under suitable conditions,Black parts have no role to play,option3
+,,,,,,
+6,Bobo wants to propagate succulents. Which is the best way she must adapt to do it?,Stem cutting,Leaf cuttings,Root cutting,Sowing the seeds,option2
+,,,,,,
+6,Gappu wants to cut out a stem of a rose plant and plant it in a different pot. What should Gappu keep in mind such that a new plant grows well in the pot?,The stem should have roots,The stem should have leaves,The stem should have a flower in it,The stem should have a node from which new leaves can arise,option4
+,,,,,,
+6,"When you keep food items like bread and fruits outside for a long time especially during the rainy season, you will observe a cottony growth on them. How does it reproduce?",Through spore formation.,Through sexual reproduction.,Through binary fission.,Through fragmentation.,option1
+,,,,,,
+6,"Sporangium leaf is seen under a microscope, and tiny yellowish dots as shown in the image were observed. What are these yellow dots?",Human-made decorations,Stomata,Spores,Phloem cells,option3
+,,,,,,
+6,Gappu found some green spots on the bread piece left out for a few days. What are those spots?,Bacteria,Fungi,Yeast,Algae,option2
+,,,,,,
+6,Paheli uprooted a rose plan. Most of the root tips with hair got left behind. She planted it in a pot with new soil and watered it regularly. Will the plant grow or die?,The plant will grow with good health.,The plant will grow with poor health.,The plant will die immediately.,The plant will die in a few days.,option4
+,,,,,,
+6,"A stick of celery is left in a beaker containing a solution of blue food coloring. After two days, the celery is taken out and it is seen that parts of it have turned blue. What tissue turns blue?",Phloem,Leaf,Stomata,Xylem,option4
+,,,,,,
+6,In which of the following cases will a plant transpire less than normal?,When kept in sunlight,When kept in a dark room,When kept in a cold environment,When kept in a less humid region,option3

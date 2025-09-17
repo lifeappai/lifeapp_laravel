@@ -1,0 +1,55 @@
+"Sr No.","Student Name","Mobile Number",School,"School Code","District Name","Block Name","Cluster Name",Grade,Section,Type,Address,State,City,DOB,"Mission Completed","Mission Requested",Quiz,"Earn Coins","Quiz Coins","Mission Coins","Coins Redeemed","Product Redeemed",Rating,"Register Date"
+1,Vijay,8600000000,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Washim,-,0,0,0,0,0,0,0,0,94133,27-05-2024
+2,Vijay,8554051128,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,5,17,5,138,13,125,0,0,5499,07-06-2024
+3,BR,8600000001,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,1,0,0,0,0,0,0,94147,07-06-2024
+4,"Vijay test",8600000006,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94148,08-06-2024
+5,Arikrishnan,8600000004,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94149,08-06-2024
+6,"VARADHARAJAN B",8600000003,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94150,08-06-2024
+7,"Muthukumar A",8600000002,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94151,08-06-2024
+8,Radhika,8600000005,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94152,08-06-2024
+9,"VARADHARAJAN B",8000000003,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94153,08-06-2024
+10,Ram,8600000011,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,1,2,1,29,4,25,0,0,12063,08-06-2024
+11,Fazil,8600000009,"Life App Testing School",2000000,,,,6,B,Student,,Maharashtra,Pune,-,1,2,0,25,0,25,0,0,35646,08-06-2024
+12,Virgil,8600000012,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94154,08-06-2024
+13,Test,8600000013,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94155,08-06-2024
+14,Vj,8600000014,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94156,08-06-2024
+15,Mani,8600000015,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94170,17-06-2024
+16,Vijay,8600000016,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,0,1,1,3,3,0,0,0,65873,18-06-2024
+17,"Jaya Shree",8600000017,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94172,18-06-2024
+18,Fazil,8600000019,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94188,21-06-2024
+19,Karthik,8600000018,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94189,21-06-2024
+20,"VARADHARAJAN B",8600000007,"Life App Testing School",2000000,,,,7,B,Student,,Maharashtra,Pune,-,2,4,6,61,11,50,0,0,8237,21-06-2024
+21,Ari,8600000010,"Life App Testing School",2000000,,,,10,A,Student,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94190,21-06-2024
+22,Surya,8600000008,"Life App Testing School",2000000,,,,8,A,Student,,Maharashtra,Pune,-,0,0,1,1,1,0,0,0,66675,21-06-2024
+23,"Vijay test",8600000021,"Life App Testing School",2000000,,,,5,B,Student,,Maharashtra,Pune,-,1,1,0,25,0,25,0,0,35647,21-06-2024
+24,Anushree,8200000002,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94191,21-06-2024
+25,"VARADHARAJAN B",8600000020,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,3,6,0,75,0,75,0,0,7751,25-06-2024
+26,"Test teacher",8600000022,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94194,25-06-2024
+27,Virgil,8600000023,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94195,25-06-2024
+28,Arikrishnan,8600000025,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94197,26-06-2024
+29,Fazil,8600000026,"Life App Testing School",2000000,,,,10,A,Student,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94198,26-06-2024
+30,Fazil,8600000027,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,1,1,0,25,0,25,0,0,35648,26-06-2024
+31,"Muthukumar A",8600000029,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94199,26-06-2024
+32,PRAHLADH,8600000028,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,1,2,3,32,7,25,0,0,11457,26-06-2024
+33,Ram,8600000030,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94200,26-06-2024
+34,Test,8600000031,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94201,26-06-2024
+35,"VJ test",8600000032,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94202,26-06-2024
+36,Prince,8700000050,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,2,5,5,54,4,50,0,0,8773,26-06-2024
+37,Ari,8600000033,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,3,4,0,75,0,75,0,0,7752,27-06-2024
+38,Ram,8600000035,"Life App Testing School",2000000,,,,8,C,Student,,Maharashtra,Pune,-,1,4,0,25,0,25,0,0,35649,28-06-2024
+39,Surya,8600000037,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,2,4,0,50,0,50,0,0,8965,28-06-2024
+40,Fazil,8600000038,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,2,6,0,50,0,50,0,0,8966,28-06-2024
+41,Praveen,7845429215,"Life App Testing School",2000000,,,,7,C,Student,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94205,02-07-2024
+42,"VJ test",8000000007,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94237,07-08-2024
+43,Vijay,8600000034,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,0,1,1,3,3,0,0,0,65875,13-08-2024
+44,"Vijay test",8600000036,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94240,13-08-2024
+45,Bubun,8600000041,"Life App Testing School",2000000,,,,2,A,Student,,Maharashtra,Pune,-,1,1,1,27,2,25,0,0,12607,13-08-2024
+46,Radhika,8600000042,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,1,3,0,25,0,25,0,0,35650,13-08-2024
+47,"Saranya G",9361466788,"Life App Testing School",2000000,,,,5,A,Student,,Maharashtra,Pune,16-09-2010,0,0,1,8,8,0,0,0,64767,21-09-2024
+48,Irene,6383450877,"Life App Testing School",2000000,,,,10,A,Student,,Maharashtra,Pune,-,0,0,6,20,20,0,0,0,62961,21-09-2024
+49,Shaki,7867816129,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94285,21-09-2024
+50,"Prince sharma",9156060370,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94286,21-09-2024
+51,Ranjana,8421758930,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94287,21-09-2024
+52,Yuvraj,9873170516,"Life App Testing School",2000000,,,,3,D,Student,,Maharashtra,Pune,-,0,0,1,7,7,0,0,0,64952,03-10-2024
+53,Vinay,8600000069,"Life App Testing School",2000000,,,,,,Teacher,,Maharashtra,Pune,-,0,0,0,0,0,0,0,0,94428,15-10-2024
+54,Vinay,8600000096,"Life App Testing School",2000000,,,,10,"No Section",Student,,Maharashtra,Pune,-,1,1,1,27,2,25,0,0,12608,15-10-2024

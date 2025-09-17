@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"If x is the number of pens and y is the number of pencils, what is the expression for ""the sum of twice x and y""?",2x + y,x +2y,2x + 2y,2y2 − x,option1
+1,Evaluate the expression 4x − 9 when x = 5.,11,5,16,19,option1
+1,"Write the algebraic expression for ""six less than twice a number a.""",2a − 6,6 − 2a,2a + 6,6 ÷ 2a,option1
+1,"If p represents the perimeter of a rectangle with length l and width w, what is the expression for the perimeter, p?",p = 2l + 2w,p = lw × 2,p = l + w × 2,p = w – l × 2,option1
+1,"If m is the number of mangoes and c is the cost of one mango, what is the expression for ""the total cost of mangoes""?",mc ÷ 2,m × c,m ÷ c,c × m − 5,option2
+1,"If a represents the number of chocolates and b represents the cost of one chocolate, what is the algebraic expression for ""the total cost of chocolates plus 3""?",a×b + 3,3× (a + b),a + b + 3,3 ÷ (a + b),option1
+1,"Express the following in algebraic form: ""The sum of twice a number x and three times another number y.""",2x+3y,x×2+y×3,2+x+3×y,2x÷3y,option1
+1,"If a is the perimeter of a rectangle with length l and width w, what is the expression for the area of the rectangle?",a = lw,a = 2l + 2w,a = l2 + w2,a = 2lw,option1
+1,"Identify the pattern: 3,6,10,15, _____.",Prime numbers,Triangular numbers,Square numbers,Cubic numbers,option2
+1,"If the pattern is 4,7,11,16,_____, what is the rule for generating the next number?",Add the next odd number,Subtract the next even number,Multiply by the position in the sequence,Divide by the position in the sequence,option1

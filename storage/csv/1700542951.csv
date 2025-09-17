@@ -1,0 +1,126 @@
+language_id,questions,option1,option2,option3,option4,answer
+6,A number of forces acting simultaneously on a body cause a change in its state of rest. Which of the following best describes these forces?,Balanced forces,Equal forces,Unbalanced forces,Opposite forces,option3
+,,,,,,
+6,Which of the following statements best describes the situation in which a newspaper is lying at rest on your coffee table?,The desk pushes on the paper only,No forces are acting on the paper.,The forces acting on the paper are balanced.,The paper pushes on the desk only,option3
+,,,,,,
+6,A moving ball rests after sometime even if no one or nothing stops it purposefully. What are the external forces which might play a role in this phenomenon?,Air resistance,Change in shape of the ball,Friction of the road,Both ‘a’ and ‘c’,option4
+,,,,,,
+6,Type of inertia that tends to resist the change in case of an “Athlete often runs before taking a long jump” is:,Inertia of direction,Inertia of motion,Uniformly accelerated motion,Inertia of rest,option2
+,,,,,,
+6,Why are passengers pushed forward when a car suddenly brakes at high speed due to an obstacle on the highway?,Inertia of motion,Inertia of time,Inertia of rest,Inertia of direction,option1
+,,,,,,
+6,"A body of mass 3 kg is pushed up with a force of 55 N. If acceleration due to gravity is 10 m/s2, state what will happen to the body.",Body will stay wherever it is,Body will move down,Body will move up,Body will change direction,option3
+,,,,,,
+6,Expression for Newton’s second law is Ft = m (v - u). What will happen if a body is at rest and F = 0?,u = 0 and F = 0 ? v = 0 ? body will stay at rest,v - u = 0 and u = 0 ? v = 0 ? body will stay at rest,u = 0 and t = 0 ? v = 0 ? body with stay at rest,v - u = 0 ? F = 0 ? there is no external force,option1
+,,,,,,
+6,How does a wicketkeeper in cricket benefit from pulling his hands backward after catching the ball shot at the wickets?,Increases force on the ball,Reduces force on the hands,Improves catching chances,Decreases chance of missing,option2
+,,,,,,
+6,Two objects have the same mass. Object A travels at double the speed as Object B. How do their momenta compare?,Object A has half the momentum of Object B,Object A and Object B both have the same momentum,Object A and Object B both have no momentum,Object A has double the momentum of Object B,option4
+,,,,,,
+6,What is the force acting on a Diwali rocket if it ejects 0.03 kg of gases per second at an acceleration of 200 m/s²?,8 N,80 dynes,6 N,60 dynes,option3
+,,,,,,
+6,Which of the following expressions proves that a body at rest will continue to be at rest if there is no external force?,u = 0 and F = 0 ? v = 0 ? body will stay at rest,v - u = 0 and u = 0 ? v = 0 ? body will stay at rest,u = 0 and t = 0 ? v = 0 ? body with stay at rest,v - u = 0 ? F = 0 ? there is no external force,option1
+,,,,,,
+6,"If equal forces are applied to an object A that has a mass of 95g and an object B with a mass of 22g, which object is going to accelerate the most?",Object A,Object B,They will accelerate the same amount,Neither object will accelerate,option2
+,,,,,,
+6,A rope is stretched by the mass of the object suspended on it. The action force that causes the rope to stretch comes from the earth. Identify the reaction force of the pair?,The rope pulling the object,The rope pulling the earth,The object pulling the rope,The object pulling the earth,option1
+,,,,,,
+6,"When a car, motorbike, and bicycle, all traveling at the same speed, are hit from behind with the same force, which one will experience the greatest acceleration?",Car,Motorbike,Bicycle,All will get same acceleration,option3
+,,,,,,
+6,What might explain that the actual force applied by the brakes to stop a car is slightly less than the calculated one?,Force of friction,Second law of motion,First law of motion,This is incorrect,option1
+,,,,,,
+6,A man is at rest on a perfectly smooth ice in the middle of a pond. What will happen if Newton's first law is applied to his situation?,The man will be able to reach the shore,The man will stay at rest,The speed at which the man reaches the shore depends on his weight,None of the above,option2
+,,,,,,
+6,What is the change in momentum of a sliding rock weighing 150 kg when its speed increases from 1.8 km/h to 3.6 km/h uniformly?,1550 kg.m/s,1500 kg.m/s,750 kg.m/s,2250 kg.m/s,option3
+,,,,,,
+6,A 30 kg skateboarder is riding her 2 kg skateboard at a speed of 4 m/s. What is his momentum?,Greater than 200 kg m/s,In between 100 and 200 kg m/s,Less than 100 kg m/s,None of the above,option2
+,,,,,,
+6,A 52 kg scooter is moving at a speed of 29 m/s. What is the momentum of it?,Equal to 200 kg m/s,Greater than 200 kg m/s,Less than 200 kg m/s,None of the above,option2
+,,,,,,
+6,A pair of skaters begin their Olympic routine from rest by pushing off each other. Skater 1 has a higher mass than Skater 2. Select the effects after they push off each other.,Skater 1 experiences a greater change in momentum,Skater 2 has a greater velocity than Skater 1,Momentum changes of skater 1 and 2 are the same.,Both ‘b’ and ‘c’,option4
+,,,,,,
+6,"In carrom, when the striker breaks the arrangement of coins, it eventually stops moving because the momentum from the striker is _______________ to the stack of coins.",Transferred,Shared,Taken,Stationary,option1
+,,,,,,
+6,A ball stops in 0.07 s when a force of 380 N is applied to it. What is the momentum of the ball?,26.6 N,26.6 kg.m/s,30.2 kg.m/s,30.2 N,option2
+,,,,,,
+6,A boy of mass 60 kg running 6 m/s jumps on to a 22 kg trolley travelling in the same direction at 2.2 m/s. Find their common velocity.,4.98 m/s,4.78 m/s,4.92 m/s,4.87 m/s,option1
+,,,,,,
+6,"How does the acceleration change when a truck of mass M, initially moved under a force F, is loaded with an object equal to its mass and the driving force is reduced to one-third of the original force?",Acceleration will be one-sixth,Acceleration will be one-fourth,Acceleration will be one-third,No Acceleration,option1
+,,,,,,
+6,A force of 7 N produces an acceleration of 12 m/s² on a mass m? and an acceleration of 4 m/s² on a mass m?. What acceleration would the same force provide if both the masses are tied together?,4 m/s²,5 m/s²,2 m/s²,3 m/s²,option4
+,,,,,,
+6,"A bullet of 7 gm is fired from a pistol of 0.7 kg. If the recoil velocity of the pistol is 1.8 m/s, find the velocity of the bullet.",160 m/s,150 m/s,140 m/s,180 m/s,option4
+,,,,,,
+6,"Two particles are placed at some distance. If the mass of each of the two particles is tripled, keeping the distance between them unchanged, how will the value of gravitational force between them change?",Six times of the previous value,Four times of the previous value,Eight times of the previous value,Nine times of the previous value,option4
+,,,,,,
+6,"Two particles are placed at some distance. If the distance between them is reduced to half, keeping their mass constant, how will the value of gravitational force between them change?",One - fourth of the previous value,Four times of the previous value,Half of the previous value,Twice of the previous value,option2
+,,,,,,
+6,The distance between two bodies becomes 7 times more than the usual distance. Then F becomes:,49 times,1/7 times,1/14 times,1/49 times,option4
+,,,,,,
+6,If we drop a rock and a feather from a height. Which will hit the ground first in a vacuum?,Feather,Rock,Both will hit at the same time.,Rock will hit first,option3
+,,,,,,
+6,A rock is falling freely near Earth's surface. How long does it take to attain a speed of 49 m/s?,5 s,10 s,9.8 s,50 s,option1
+,,,,,,
+6,What will be the weight of a 29kg mass on earth? (g = 9.8m/s²),29.0 N,284.2 N,28.4 N,2.9 N,option2
+,,,,,,
+6,An object is 70 kg on earth. What will be its weight on the moon? Take g on the moon to be 1.6 m/s².,11.2 N,112 N,11.6 N,116 N,option2
+,,,,,,
+6,A force of 117.6 N acts upon a body whose weight is 29.4N. What is the mass of the body? (g = 9.8 m/s²).,4 kg,3 kg,2 kg,1 kg,option2
+,,,,,,
+6,A stone resting on the ground has a gravitational force of 74 N acting on it. What is the weight of the stone? (g = 10 m/s²).,7.4 N,74 N,740 N,Need more information,option1
+,,,,,,
+6,Two astronauts A and B weigh 60 kg and 65 kg respectively. How will their weights compare in the space where the gravity is zero?,Weight of A will be less than weight of B,Weight of B will be less than weight of A,Both will have an average weight of each other,Both will have zero weight,option4
+,,,,,,
+6,Weight of a person on Earth is 30 kg while on another planet A is 3 kg. Which has more acceleration due to gravity?,Earth,Planet A,Both have same acceleration due to gravity,Insufficient information,option1
+,,,,,,
+6,Mass of an object is 120 kg on earth. What will be its mass on the moon?,120 kg,60 kg,20 kg,720 kg,option1
+,,,,,,
+6,The weight of the man on earth is 60 N and on a certain planet is 30 N. Take g = 10 m/s2 on earth. Find gravitational acceleration ‘g’ of the other planet.,15 m/s2,10 m/s2,2 m/s2,5 m/s2,option4
+,,,,,,
+6,The weight of the man on earth is 450 N and on a certain planet is 150 N. Take g = 10 m/s2 on earth. What is his mass on the other planet?,3 kg,4500 kg,45 kg,30 kg,option3
+,,,,,,
+6,What happens if the farm animals are not vaccinated?,Diseases are caused due to viruses and bacteria.,Farm animals may not produce well.,Farm animals may die.,All of the above,option4
+,,,,,,
+6,What are the major groups of activities involved in improving crop yields?,Crop variety improvement,Crop production improvement,Crop protection improvement,All of the above,option4
+,,,,,,
+6,"As time goes by, and water goes through the water cycle again and again, the amount of water on the Earth__________.",Increases,Decreases,Stays the same,Goes up and down,option3
+,,,,,,
+6,"During the day, hot air rises and creates low pressure. Wind moves from a high-pressure region to a low-pressure region. According to this, identify the correct cases of the movement of wind.",From poles to equator,From Equator to poles,From sea to land,Both 'b' and 'c',option4
+,,,,,,
+6,"Water is supplied from rivers and lakes which are closer to villages. In spite of this, cities have better water supply than villages. Why?",Villages need less water,Cities need more water,Water supply systems are not installed properly in villages,None of the above,option3
+,,,,,,
+6,"Force applied by spring moves an object through a distance of 40 cm. If the work done is 51.2 J, what is the magnitude of the force applied?",1.28 J,-1.28 N,128 N,-128 J,option3
+,,,,,,
+6,"If m is mass of a body, a is acceleration in a body, v is its velocity, F is force applied and d is the displacement produced, what will be the expression for work done (W)?",W = mav,W = Fd,W = mvd,W = ad,option2
+,,,,,,
+6,"If force applied on the particle is tripled and displacement of the particle is doubled, what would be the effect on work done?",Work done will be doubled,Work done will be 4 times,Work done will be 6 times,Work done will be 2/3 times,option3
+,,,,,,
+6,A man of mass 47 kg is running at a velocity of 6 m/s. What is his KE?,8.46 J,84.6 J,846 J,8460 J,option3
+,,,,,,
+6,In which of the following cases is the potential energy of a spring maximum?,When it is compressed,When it is extended,When it is at its natural length,Both ‘a’ and ‘b’,option4
+,,,,,,
+6,When a rocket rises up vertically ______ increases and is maximum at the maximum height of the rocket.,Chemical energy,Potential energy,Kinetic energy,Fuel energy,option2
+,,,,,,
+6,A load of 150 kg is pulled up by 7m. Calculate the work done.,1050 J,10290 J,1029 J,10500 J,option2
+,,,,,,
+6,How much work is done when a body of mass m is raised to a height h above the ground with velocity v?,mvh,½ mv²,mgh + ½ mv²,None of the above,option4
+,,,,,,
+6,"When a spring is compressed or stretched beyond its natural position by applying some force, work is done on it. Its elastic potential energy:",Increases,Decreases,Remains the same,Becomes zero,option1
+,,,,,,
+6,A musical instrument is producing a continuous note. This note cannot be heard by a person having a normal hearing range. This note must then be passing through:,Water,Wax,Vacuum,Empty vessel,option3
+,,,,,,
+6,Why a big explosion on the moon cannot be heard on the earth?,The explosion produces high-frequency sound waves that are inaudible,Sound waves cannot travel through the vacuum between the moon and the earth,Sound waves are absorbed by the moon’s atmosphere,Sound waves are absorbed by the earth’s atmosphere,option2
+,,,,,,
+6,"Velocities of sound waves in media P, Q, R, and S are 18,000 km/h, 900 km/h, 0 km/h, and 1200 km/h respectively. Which medium could be a liquid?",P,Q,R,S,option4
+,,,,,,
+6,What is the change in wavelength of a sound wave in air if its frequency is doubled?,Wavelength is half,Wavelength is double,Wavelength is same,Wavelength is four times,option1
+,,,,,,
+6,A key of a mechanical piano struck gently and then struck again but much harder this time. Which sound property changes in this situation?,Amplitude,Frequency,Wavelength,Time period,option1
+,,,,,,
+6,The maximum speed of vibrations which produce audible sound will be in:,Sea water,Ground glass,Human blood,Dry air,option2
+,,,,,,
+6,A sonar echo takes 2.2s to return from a whale. How far away is the whale? Speed of sound in water is 1533 m/s,3300 m,1650 m,1686.3 m,3372.6 m,option3
+,,,,,,
+6,Why is the school library covered with a carpet?,So everyone can make a lot of noise,To help absorb reverberating sounds,Because it looks good,To help absorb echo,option2
+,,,,,,
+6,A person has an injury on their knee. Which cell division will take place to repair the cells of the injured part?,Mitosis,Miosis,Both of them,None of them,option1

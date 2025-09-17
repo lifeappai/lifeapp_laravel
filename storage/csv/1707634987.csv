@@ -1,0 +1,9 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"If you draw a card from a well-shuffled standard deck of 52 cards, what is the probability of drawing a heart?",1/4.,1/2.,1/13.,1/3.,option3
+1,"If you roll a fair six-sided die, what is the probability of rolling a number less than 5?",1/6.,1/2.,2/3.,3/6.,option3
+1,"In a spinner game with four equal sections labelled A, B, C, and D, what is the probability of the spinner landing on section C?",1/6.,1/4.,1/3.,1/2.,option2
+1,"In a game where you roll two fair six-sided dice, what is the probability of getting a sum of 7?",1/6.,1/8.,1/12.,¼,option1
+1,A is a quadrilateral whose opposites sides are parallel and B is a quadrilateral whose all sides are equal. Choose correct option.,A is parallelogram,B is parallelogram,A is rhombus,Both are parallelogram,option1
+1,Diagonals of this quadrilateral are perpendicular bisectors.,Parallelogram,Kite,Rhombus,Trapezium,option3
+1,Determine the smallest multiple of 2640 that is a perfect square.,4356,5184,7128,6336,option2
+1,What is the smallest multiple of 3960 that is a perfect square?,8464,6084,5040,4624,option3

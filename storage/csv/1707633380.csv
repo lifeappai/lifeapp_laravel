@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"If a represents any number, what is the expression for ""five more than twice the number""?",5×a+2,2a+5,a×5+2,2+5a,option2
+1,"What is the algebraic expression for ""the product of a number and the sum of 6 and 3""?",x×6+3,x×(6+3),6+3×x,x+6×3,option2
+1,"If b is the number of chocolates, you have and each chocolate costs Rs. 15, what is the expression for ""the total cost of b chocolates""?",15×b,b+15,15÷b,15−b,option1
+1,"Write the algebraic expression for ""the difference between twice p and q.""",2p−q,2p+q,2(p−q),2p÷q,option1
+1,"If c represents the total number of books on a shelf and each shelf has 4 books, what is the expression for ""the number of shelves""?",c ÷ 4,c + 4,4c,4 – c,option1
+1,Evaluate the expression 5 × (3 + 4).,19,23,35,40,option3
+1,"If m = 8, find the value of 3m − 5.",19,14,19,24,option1
+1,What is the result of 20 − (4 × 2)?,12,10,14,16,option1
+1,"If n is an even number, what is the expression for ""five more than thrice n""?",5 + 3n,3n − 5,3 × 5n,5n + 3,option1
+1,"Fill in the missing number: 3,7,11, _____,19.",14,15,17,20,option2

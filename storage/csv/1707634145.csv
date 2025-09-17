@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"If m is 80 degrees, what is the measure of the angle which forms adjacent angle pair with m?",80 degrees,100 degrees,180 degrees,260 degrees,option2
+1,"If ∠A is 30 degrees, and ∠B is vertically opposite to ∠A what is the measure of ∠B?",30 degrees,60 degrees,90 degrees,120 degrees,option1
+1,"In a right-angled triangle, if the lengths of the legs are 6 cm and 8 cm, what is the length of the hypotenuse?",10 cm,12 cm,14 cm,15 cm,option1
+1,"In a right-angled triangle, if the lengths of the legs are 9 cm and 12 cm, what is the length of the hypotenuse?",15 cm,18 cm,21 cm,24 cm,option1
+1,"In triangle XYZ, if YZ is the base and line XM is an altitude, what is true about XM?",XM is the median,XM is perpendicular to YZ,XM bisects angle YXZ,XM is equal to YZ,option2
+1,"In triangle PQR, if QS is a median and PR is an altitude, which statement is correct?",QS bisects PR,S is perpendicular to PR,PR is the longest side of the triangle,QS is equal to PR,option2
+1,Which of the following statements best describes theoretical probability?,The probability based on the outcomes of an actual experiment or trial.,The probability based on observed frequencies from past events.,The probability calculated by dividing the number of favourable outcomes by the total number of possible outcomes.,The probability determined by conducting simulations and experiments.,option3
+1,"Consider the data set: 10, 15, 18, 22, 25, 27, 30. What is the median of this data set?",18,22,25,27,option2
+1,"The following data set represents the number of books read by students in a month: 4, 6, 8, 8, 10, 12, 12, 12. What is the mode of this data set?",6,8,10,12,option4
+1,"The ages of a group of students are: 14, 15, 16, 17, 18, 19, 20, 21. What is the range of ages in this data set?",6,7,8,9,option2

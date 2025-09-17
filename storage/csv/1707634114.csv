@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"The ratio of the lengths of two rectangles is 2:3. If the length of the smaller rectangle is 6 cm, what is the length of the larger rectangle?",7.5 cm,9 cm,8 cm,9.5 cm,option2
+1,"If 4 liters of paint can cover an area of 24 square meters, how much paint is needed to cover an area of 36 square meters?",6 liters,8 liters,9 liters,12 liters,option1
+1,What is 15% of 80?,12,15,18,20,option1
+1,"If the original price of a shirt was ₹50 and it is now on sale for 20% off, what is the sale price?",₹ 40,₹ 45,₹ 48,₹ 42,option1
+1,"If a salary of ₹5000 is increased by 8%, what is the new salary?","₹ 5,400","₹ 5,200","₹ 5,100","₹ 5,600",option1
+1,"If a shirt originally cost ₹25 and is now priced at ₹20, what is the percentage decrease?",15%,20%,25%,30%,option1
+1,Which of the following is a rational number?,√3,0.25,1/0,π,option2
+1,"Arrange the following numbers in ascending order: 3/5 ,−0.6, 4/7, −1/2","−1/2, −0.6, 4/7, 3/5","−0.6, -1/2, 3/5, 4/7","3/5, 4/7, -1/2, -0.6","4/7, 3/5, -1/2, -0.6",option1
+1,Which is greater: 5/8 or 3/4?,5/8.,3/4.,They are equal,Cannot be determined,option2
+1,A shopkeeper bought a shirt for ₹800 and sold it for ₹1000. What is the profit percentage?,20%,25%,15%,30%,option2

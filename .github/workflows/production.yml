@@ -1,0 +1,26 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Deploy to PRODUCTION
+      env:
+        PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        HOSTNAME: ${{ secrets.BASTION_IP }}
+        USER_NAME: ${{ secrets.REMOTE_USER }}
+
+      run: |
+        echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
+        ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOSTNAME} '
+
+          # Now we have got the access of EC2 and we will start the deploy .
+          /home/ec2-user/github_action_lifeapp_prod
+          '

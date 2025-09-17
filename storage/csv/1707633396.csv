@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"Express the pattern 3,9,27,81,_____ using a variable n.",3n,3n3,3n,3n÷3,option1
+1,"If y is the number of books and z is the cost of one book, what is the expression for ""the total cost of books minus twice the number of books""?",y−2z,yz−2y,2y−z,z−2y,option2
+1,Evaluate the expression (p+5)2 when p=3.,64,144,100,121,option1
+1,"What is the expression for ""three more than the product of a number a and the sum of b and c?",3+abc,3×(a+b+c),3abc,a× (b+c) +3,option4
+1,"If m represents the number of pens and n represents the number of notebooks, what is the expression for ""the square of the difference between m and n?",m2−n2,m2+n2,(m−n)2,(m+n)2,option1
+1,What is the perimeter of a regular hexagon with each side measuring 8 cm?,24 cm,40 cm,48 cm,64 cm,option3
+1,The perimeter of a square is 36 cm. What is the length of each side?,6 cm,8 cm,9 cm,12 cm,option2
+1,"If the perimeter of an equilateral triangle is 21 units, what is the length of each side?",5 units,6 units,7 units,8 units,option3
+1,Identify the type of angle formed when two lines intersect to create angles that are greater than 90 degrees.,Acute,Right,Obtuse,Straight,option
+1,What is the measure of each interior angle in a regular hexagon?,120 degrees,135 degrees,140 degrees,150 degrees,option1

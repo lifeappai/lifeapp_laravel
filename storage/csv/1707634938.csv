@@ -1,0 +1,11 @@
+language_id,questions,option1,option2,option3,option4,answer
+1,"A principal amount of Rs. 15,000 is invested at a simple interest rate of 8% per annum. How much interest will be earned after 4 years?",Rs. 4600,Rs. 4800,Rs. 5000,Rs. 5200,option2
+1,"If a principal amount of Rs. 10,000 is invested at an annual interest rate of 8%, compounded annually, what will be the total amount after 2 years?","Rs. 10,800","Rs. 10,640","Rs. 11,040","Rs. 11,264",option4
+1,"In a school, the ratio of students who play cricket to football is 5:2. If there are 315 students in total, how many play cricket?",225,250,275,300,option1
+1,"A car is bought for Rs. 1,20,000 and sold at a loss of 18%. What is the selling price?","Rs. 97,200","Rs. 96,000","Rs. 94,800","Rs. 98,400",option4
+1,"If the sales tax rate is 10% and you buy a smartphone for Rs. 28,000, what is the total cost including tax?","Rs. 30,800","Rs. 38,800","Rs. 38,000","Rs. 31,800",option1
+1,"A camera is priced at Rs. 36,000, and the VAT rate is 15%. What is the total cost including VAT?","Rs. 40,000","Rs. 40,400","Rs. 41,000","Rs. 41,400",option4
+1,"If the GST rate is 20%, and the initial cost of a high-end laptop is Rs. 1,20,000, what is the total cost including GST?","Rs. 1,40,000","Rs. 4,14,000","Rs. 1,44,000","Rs. 4,41,000",option1
+1,"If the principal amount is Rs. 50,000, and the simple interest earned is Rs. 12,500 in 2 years, what is the rate of interest per annum?",12.50%,10%,8%,5%,option1
+1,"If the principal amount is Rs. 20,000, the interest rate is 8% per annum, and it's compounded annually, what is the total amount after 2 years?","Rs. 21,600","Rs. 21,760","Rs. 21,161","Rs. 20,400",option3
+1,"In a grocery store, the ratio of the number of fruit juices to soft drinks is 7:3. If there are 180 drinks in total, how many are soft drinks?",36,54,72,90,option2
