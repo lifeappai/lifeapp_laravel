@@ -55,14 +55,14 @@ class LaMissionController extends ResponseController
 
             // Role-based access
             if (Auth::user()->type == UserType::Teacher) {
-                $missions->where('allow_for', GameType::ALLOW_FOR['BY_TEACHER']);
-            } else if (Auth::user()->type == UserType::Student) {
-                $missions->where(function ($query) {
-                    $query->where('allow_for', GameType::ALLOW_FOR['ALL'])
-                        ->orWhereHas('laMissionAssigns', function ($query) {
-                            $query->where('user_id', Auth::user()->id);
-                        });
-                });
+                // Teachers: 'for all' (1) + 'for teacher' (2)
+                $missions->whereIn('allow_for', [GameType::ALLOW_FOR['ALL'], GameType::ALLOW_FOR['BY_TEACHER']]);
+            } elseif (Auth::user()->type == UserType::Student) {
+                // Students: 'for all' (1) + 'for student' (3)
+                $missions->whereIn('allow_for', [GameType::ALLOW_FOR['ALL'], GameType::ALLOW_FOR['BY_STUDENT']])
+                    ->orWhereHas('laMissionAssigns', function ($query) {
+                        $query->where('user_id', Auth::user()->id);
+                    });
             }
 
             if ($request->search_title) {
@@ -124,9 +124,9 @@ class LaMissionController extends ResponseController
         try {
             $validate = [
                 'la_mission_id' => ['required', 'exists:la_missions,id'],
-                'media' => ['required'],
-                'description' => ['nullable'],
-                'timing' => ['required'],
+                'media'         => ['required'],
+                'description'   => ['nullable'],
+                'timing'        => ['required'],
             ];
 
             $validator = Validator::make($request->all(), $validate);
@@ -134,21 +134,28 @@ class LaMissionController extends ResponseController
                 return $this->sendError($validator->errors()->first());
             }
 
-            // Check if user already has a submitted/approved record
-            $missionComplete = LaMissionComplete::where('user_id', Auth::id())
+            // 🔎 1️⃣ Look specifically for a skipped record first
+            $skipped = LaMissionComplete::where('user_id', Auth::id())
                 ->where('la_mission_id', $request->la_mission_id)
-                ->latest()
+                ->where('status', 'skipped')
                 ->first();
 
-            if ($missionComplete && in_array($missionComplete->status, ['submitted', 'completed'])) {
+            // 🔎 2️⃣ Check for any submitted/completed record to block duplicates
+            $existingSubmitted = LaMissionComplete::where('user_id', Auth::id())
+                ->where('la_mission_id', $request->la_mission_id)
+                ->whereIn('status', ['submitted','completed'])
+                ->exists();
+
+            if ($existingSubmitted) {
                 return response()->json([
                     'error' => 'Mission already submitted.'
                 ], 400);
             }
 
+            // 📁 Upload media
             $mediaId = null;
-            if ($request->media) {
-                $missionCompleteImg = $request->media;
+            if ($request->hasFile('media')) {
+                $missionCompleteImg = $request->file('media');
                 $qMediaName = $missionCompleteImg->getClientOriginalName();
                 $qMediaPath = Storage::put('media', $missionCompleteImg);
 
@@ -160,16 +167,28 @@ class LaMissionController extends ResponseController
                 $mediaId = $missionResourceMedia->id;
             }
 
-            LaMissionComplete::create([
-                "user_id"       => Auth::id(),
-                "la_mission_id" => $request->la_mission_id,
-                "media_id"      => $mediaId,
-                "description"   => $request->description,
-                "timing"        => $request->timing,
-                "status"        => 'submitted', // 👈 NEW
-            ]);
+            if ($skipped) {
+                // ✅ 3️⃣ Update the skipped record
+                $skipped->update([
+                    'media_id'    => $mediaId,
+                    'description' => $request->description,
+                    'timing'      => $request->timing,
+                    'status'      => 'submitted',
+                ]);
+            } else {
+                // ✅ 4️⃣ No skipped record → create new
+                LaMissionComplete::create([
+                    'user_id'       => Auth::id(),
+                    'la_mission_id' => $request->la_mission_id,
+                    'media_id'      => $mediaId,
+                    'description'   => $request->description,
+                    'timing'        => $request->timing,
+                    'status'        => 'submitted',
+                ]);
+            }
 
             return $this->sendResponse("", "Mission submitted successfully");
+
         } catch (\Exception $exception) {
             return response()->json([
                 'error' => $exception->getMessage(),

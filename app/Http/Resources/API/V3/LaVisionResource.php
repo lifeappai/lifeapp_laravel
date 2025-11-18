@@ -48,10 +48,12 @@ class LaVisionResource extends JsonResource
                 'id' => $this->subject->id,
                 'title' => $this->subject->title,
             ] : null,
-            'chapter' => $this->chapter ? [
-                'id' => $this->chapter->id,
-                'title' => $this->chapter->title,
-            ] : null,
+            'chapters' => $this->chapters->map(function ($chapter) {
+                return [
+                    'id' => $chapter->id,
+                    'title' => $chapter->title,
+                ];
+            }),
             'questionsCount' => $this->questions_count,
             'assigned_by' => optional(optional($this->assignments()->first())->teacher)->name,
 

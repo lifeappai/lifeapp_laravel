@@ -90,12 +90,28 @@ class LaMission extends Model
     public function sendApproveNotification(User $toUser)
     {
         $tokens = $toUser->canSendNotification() ? [$toUser->device_token] : [];
-        $notification = NotificationTemplate::MISSION_APPROVED;
+
+        // ✅ Choose notification template
+        $notification = match ((int)$this->type) {
+            GameType::MISSION => NotificationTemplate::MISSION_APPROVED,
+            GameType::JIGYASA => NotificationTemplate::JIGYASA_APPROVED,
+            GameType::PRAGYA  => NotificationTemplate::PRAGYA_APPROVED,
+            default            => NotificationTemplate::MISSION_APPROVED,
+        };
+
+        // ✅ Choose correct action type
+        $action = match ((int)$this->type) {
+            GameType::MISSION => NotificationAction::Mission(),
+            GameType::JIGYASA => NotificationAction::Jigyasa(),
+            GameType::PRAGYA  => NotificationAction::Pragya(),
+            default            => NotificationAction::Mission(),
+        };
+
         $payload = [
-            'action' => NotificationAction::Mission(),
-            'action_id' => $this->id,
+            'action'        => $action,
+            'mission_id'    => $this->id ?? '',
             'la_subject_id' => $this->la_subject_id ?? '',
-            'la_level_id' => $this->la_level_id ?? '',
+            'la_level_id'   => $this->la_level_id ?? '',
         ];
 
         $pushNotification = new SendPushNotification(
@@ -111,12 +127,28 @@ class LaMission extends Model
     public function sendRejectNotification(User $toUser)
     {
         $tokens = $toUser->canSendNotification() ? [$toUser->device_token] : [];
-        $notification = NotificationTemplate::MISSION_REJECTED;
+
+        // ✅ Choose notification template
+        $notification = match ((int)$this->type) {
+            GameType::MISSION => NotificationTemplate::MISSION_REJECTED,
+            GameType::JIGYASA => NotificationTemplate::JIGYASA_REJECTED,
+            GameType::PRAGYA  => NotificationTemplate::PRAGYA_REJECTED,
+            default            => NotificationTemplate::MISSION_REJECTED,
+        };
+
+        // ✅ Choose correct action type
+        $action = match ((int)$this->type) {
+            GameType::MISSION => NotificationAction::Mission(),
+            GameType::JIGYASA => NotificationAction::Jigyasa(),
+            GameType::PRAGYA  => NotificationAction::Pragya(),
+            default            => NotificationAction::Mission(),
+        };
+
         $payload = [
-            'action' => NotificationAction::Mission(),
-            'action_id' => $this->id,
+            'action'        => $action,
+            'mission_id'    => $this->id ?? '',
             'la_subject_id' => $this->la_subject_id ?? '',
-            'la_level_id' => $this->la_level_id ?? '',
+            'la_level_id'   => $this->la_level_id ?? '',
         ];
 
         $pushNotification = new SendPushNotification(
@@ -155,18 +187,30 @@ class LaMission extends Model
 
     public function sendAssignedMissionNotification($userIds)
     {
+        $notification = match ($this->type) {
+            GameType::MISSION => NotificationTemplate::NEW_MISSION_ASSIGNED,
+            GameType::JIGYASA => NotificationTemplate::NEW_JIGYASA_ASSIGNED,
+            GameType::PRAGYA  => NotificationTemplate::NEW_PRAGYA_ASSIGNED,
+            default => NotificationTemplate::NEW_MISSION_ASSIGNED,
+        };
+
+        $action = match ($this->type) {
+            GameType::MISSION => NotificationAction::Mission(),
+            GameType::JIGYASA => NotificationAction::Jigyasa(),
+            GameType::PRAGYA  => NotificationAction::Pragya(),
+            default => NotificationAction::Mission(),
+        };
+
         User::whereIn('id', $userIds)
             ->orderBy('id', 'asc')
-            ->chunk(50, function ($users) {
-                $notification = NotificationTemplate::NEW_MISSION_ASSIGNED;
-
+            ->chunk(50, function ($users) use ($notification, $action) {
                 foreach ($users as $user) {
                     if (!$user->device_token) {
                         continue;
                     }
 
                     $payload = [
-                        'action'        => NotificationAction::Mission(),
+                        'action'        => $action,
                         'mission_id'    => $this->id ?? '',
                         'la_subject_id' => $this->la_subject_id ?? '',
                         'la_level_id'   => $this->la_level_id ?? '',
@@ -175,7 +219,7 @@ class LaMission extends Model
                     $pushNotification = new SendPushNotification(
                         $notification['title'],
                         $notification['body'],
-                        [$user->device_token], // only this user’s token
+                        [$user->device_token],
                         $payload
                     );
 

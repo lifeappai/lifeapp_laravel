@@ -184,9 +184,14 @@ class Vision extends Model
         return 0;
     }
 
-    public function chapter()
+    public function chapters()
     {
-        return $this->belongsTo(Chapter::class, 'chapter_id');
+        return $this->belongsToMany(
+            Chapter::class,
+            'vision_chapter',
+            'vision_id',
+            'chapter_id'
+        );
     }
 
 }

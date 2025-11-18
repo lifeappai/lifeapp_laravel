@@ -73,7 +73,7 @@ class LaTeacherController extends ResponseController
     public function assignMissions(Request $request)
     {
         try {
-            $validate = [
+            $validate = [ 
                 'la_mission_id' => ['required', 'exists:la_missions,id'],
                 'user_ids' => ['required', 'array'],
                 'due_date' => ['required'],
@@ -332,7 +332,9 @@ class LaTeacherController extends ResponseController
             }
 
             if ($request->filled('chapter_id')) {
-                $visions->where('chapter_id', $request->chapter_id); // ✅ filter by chapter
+                $visions->whereHas('chapters', function ($query) use ($request) {
+                    $query->where('chapters.id', $request->chapter_id);
+                });
             }
 
             if ($request->filled('search_title')) {
@@ -346,7 +348,14 @@ class LaTeacherController extends ResponseController
 
             // Pagination
             $perPage = $request->get('per_page', 10);
-            $data = $visions->paginate($perPage);
+            $data = $visions
+                ->with([
+                    'chapters',       // many-to-many chapters
+                    'laLevel',        // level info
+                    'subject',        // subject info
+                    'visionAssigns'   // assignments
+                ])
+                ->paginate($perPage);
 
             $response['visions'] = LaVisionResource::collection($data)->response()->getData(true);
 

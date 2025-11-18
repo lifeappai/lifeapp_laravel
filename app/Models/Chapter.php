@@ -42,6 +42,11 @@ class Chapter extends Model
 
     public function visions()
     {
-        return $this->hasMany(Vision::class, 'chapter_id');
+        return $this->belongsToMany(
+            Vision::class,
+            'vision_chapter',
+            'chapter_id',
+            'vision_id'
+        );
     }
 }

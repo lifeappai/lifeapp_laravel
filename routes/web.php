@@ -31,6 +31,7 @@ use App\Http\Controllers\Admin\SchoolController;
 use App\Http\Controllers\Admin\StatisticController;
 use App\Http\Controllers\Admin\subjectController;
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Api\V3\QrRedirectController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -49,6 +50,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('qr/{type}/{id}', [QrRedirectController::class, 'redirectToApp']);
+Route::get('qr-install', [QrRedirectController::class, 'installPage']);
 
 Route::get('/health-check', function () {
     return env('APP_ENV') . ' WORKED!';

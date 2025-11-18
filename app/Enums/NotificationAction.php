@@ -25,5 +25,7 @@ final class NotificationAction extends Enum
     const Session = 6;
     const Vision = 7;
     const AdminMessage = 8;
+    const Jigyasa = 9;
+    const Pragya = 10;
 
 }

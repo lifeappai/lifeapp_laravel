@@ -39,6 +39,8 @@ use App\Http\Controllers\Api\V3\FaqController;
 use App\Http\Controllers\Api\V3\ChapterController;
 use App\Http\Controllers\TestingController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\V3\SchoolRawController;
+use App\Http\Controllers\Api\V3\QrRedirectController;
 
 
 Route::prefix('otp')->group(function () {
@@ -57,6 +59,8 @@ Route::prefix('schools')->group(function () {
 
 Route::post('school/code-verify', [SchoolController::class, 'verifySchoolCode']);
 
+Route::get('pending-redirect', [QrRedirectController::class, 'getPendingRedirect']);
+
 Route::prefix('subjects')->group(function () {
     Route::get('/', [LaSubjectController::class, 'index']);
 });
@@ -74,6 +78,8 @@ Route::post('/visions/{vision}/notify', [LaVisionController::class, 'notifyVisio
 Route::post('/missions/{missionId}/notify', [LaMissionController::class, 'notifyMissionStatus']);
 
 Route::post('/admin/send-notification', [AdminNotificationController::class, 'send']);
+
+Route::get('/schoolsraw/search', [SchoolRawController::class, 'search']);
 
 Route::middleware('auth:api')->group(function () {
     Route::prefix('new-subjects')->group(function () {

@@ -20,7 +20,7 @@ class LaPblTextbookMappingController extends ResponseController
         try {
             $validate = [
                 'la_board_id'   => ['nullable', 'exists:la_boards,id'],
-                'language_id'   => ['required', 'exists:la_lession_plan_languages,id'],
+                'language_id'   => ['required', 'exists:languages,id'],
                 'la_subject_id' => ['nullable', 'exists:la_subjects,id'],
                 'la_grade_id'   => ['nullable', 'exists:la_grades,id'],
             ];

@@ -96,7 +96,7 @@ final class NotificationTemplate
 
     public const NEW_MISSION_ASSIGNED = [
         'title' => 'Life App',
-        'body' => 'Your teacher have assigned you a mission.',
+        'body' => 'Your teacher has assigned you a Mission.',
     ];
 
     public const NEW_SESSION = [
@@ -123,4 +123,35 @@ final class NotificationTemplate
         'title' => '%s', 
         'body'  => '%s', 
     ];
+
+    public const JIGYASA_APPROVED = [
+        'title' => 'Life App',
+        'body'  => 'Your Jigyasa has been approved!',
+    ];
+
+    public const JIGYASA_REJECTED = [
+        'title' => 'Life App',
+        'body'  => 'Your Jigyasa has been rejected.',
+    ];
+
+    public const PRAGYA_APPROVED = [
+        'title' => 'Life App',
+        'body'  => 'Your Pragya has been approved!',
+    ];
+
+    public const PRAGYA_REJECTED = [
+        'title' => 'Life App',
+        'body'  => 'Your Pragya has been rejected.',
+    ];
+
+    public const NEW_JIGYASA_ASSIGNED = [
+        'title' => 'Life App',
+        'body'  => 'Your teacher has assigned you a Jigyasa.',
+    ];
+
+    public const NEW_PRAGYA_ASSIGNED = [
+        'title' => 'Life App',
+        'body'  => 'Your teacher has assigned you a Pragya.',
+    ];
+
 }

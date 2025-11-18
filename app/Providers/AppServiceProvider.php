@@ -5,6 +5,7 @@ namespace App\Providers;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
+use Carbon\Carbon;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -31,5 +32,10 @@ class AppServiceProvider extends ServiceProvider
         }
         
         Paginator::useBootstrap();
+
+        // Force all JSON date serialization to IST
+        Carbon::serializeUsing(function ($carbon) {
+            return $carbon->timezone('Asia/Kolkata')->toDateTimeString();
+        });
     }
 }

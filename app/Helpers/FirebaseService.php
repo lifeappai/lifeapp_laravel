@@ -45,7 +45,41 @@ class FirebaseService
                     "title" => $title,
                     "body"  => $body,
                 ],
-                "data" => $stringifiedData, 
+                "data" => $stringifiedData,
+
+                // ✅ Android heads-up
+                "android" => [
+                    "priority" => "high",
+                    "notification" => [
+                        "sound" => "default",
+                        "channel_id" => "lifelab",   // must match channel created in app
+                        "notification_priority" => "PRIORITY_HIGH",
+                    ],
+                ],
+
+                // ✅ iOS banner
+                "apns" => [
+                    "headers" => [
+                        "apns-priority" => "10"
+                    ],
+                    "payload" => [
+                        "aps" => [
+                            "alert" => [
+                                "title" => $title,
+                                "body"  => $body,
+                            ],
+                            "sound" => "default",
+                            "content-available" => 1
+                        ]
+                    ]
+                ],
+
+                // ✅ Global FCM priority (legacy fallback)
+                "webpush" => [
+                    "headers" => [
+                        "Urgency" => "high"
+                    ]
+                ]
             ],
         ];
 

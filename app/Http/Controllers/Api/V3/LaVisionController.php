@@ -48,7 +48,7 @@ class LaVisionController extends ResponseController
             $rules = [
                 'la_subject_id' => ['required', 'exists:la_subjects,id'],
                 'la_level_id'   => ['nullable', 'exists:la_levels,id'],
-                'filter'        => ['nullable', Rule::in(['all', 'teacher_assigned', 'skipped', 'pending', 'completed'])],
+                'filter'        => ['nullable', Rule::in(['all', 'teacher_assigned', 'skipped', 'pending', 'completed', 'submitted'])],
                 'search_lang'   => ['nullable'],
                 'search_title'  => ['nullable'],
             ];
@@ -91,7 +91,6 @@ class LaVisionController extends ResponseController
             if ($request->filter) {
                 switch ($request->filter) {
                     case 'teacher_assigned':
-                        // visions assigned to this user by a teacher
                         $visions->whereHas('assignments', function ($q) {
                             $q->where('student_id', Auth::id());
                         });
@@ -100,25 +99,33 @@ class LaVisionController extends ResponseController
                     case 'completed':
                     case 'pending':
                     case 'skipped':
-                        // visions with matching status in vision_user_statuses table
+                    case 'submitted':
                         $visions->whereHas('userStatus', function ($q) use ($request) {
-                            $q->where('user_id', Auth::id())
-                            ->where('status', $request->filter);
+                            $q->where('status', $request->filter);
                         });
                         break;
                 }
             }
 
             // 6) JSON-title search:
-            if ($request->search_lang && $request->search_title) {
-                $visions->whereRaw(
-                    "JSON_UNQUOTE(JSON_EXTRACT(title, '$.\"{$request->search_lang}\"')) LIKE ?",
-                    ["%{$request->search_title}%"]
-                );
+            if ($request->filled('search_title')) {
+                $searchTitle = strtolower($request->search_title);
+
+                $visions->where(function ($query) use ($searchTitle, $request) {
+                    if ($request->filled('search_lang')) {
+                        // Search only in a specific language key
+                        $lang = $request->search_lang;
+                        $query->whereRaw("LOWER(JSON_UNQUOTE(JSON_EXTRACT(title, '$.\"{$lang}\"'))) LIKE ?", ["%$searchTitle%"]);
+                    } else {
+                        // Search across all keys in the JSON
+                        $query->whereRaw("JSON_SEARCH(LOWER(title), 'all', ?) IS NOT NULL", ["%$searchTitle%"])
+                              ->orWhereRaw("JSON_SEARCH(LOWER(description), 'all', ?) IS NOT NULL", ["%$searchTitle%"]);
+                    }
+                });
             }
 
             // 7) Final pagination & response:
-            $visions = $visions->orderBy('index')->paginate(500);
+            $visions = $visions->orderBy('index')->paginate(15);
             $response['visions'] = LaVisionResource::collection($visions)
                                     ->response()
                                     ->getData(true);
