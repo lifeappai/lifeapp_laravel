@@ -34,7 +34,9 @@ public_html/storage
 public_html/hot
 
 storage/*.key
+storage/*.json
 .env
+.enves
 Homestead.yaml
 Homestead.json
 /.vagrant
