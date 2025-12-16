@@ -43,10 +43,12 @@ use App\Http\Controllers\Api\V3\SchoolRawController;
 use App\Http\Controllers\Api\V3\QrRedirectController;
 
 
-Route::prefix('otp')->group(function () {
-    Route::post('/send', [OtpController::class, 'sendOtp']);
-    Route::post('/verify', [OtpController::class, 'confirmOtp']);
-    Route::post('/resend', [OtpController::class, 'resendOtp']);
+Route::prefix('otp')
+    ->middleware('otp_api_key')
+    ->group(function () {
+        Route::post('/send', [OtpController::class, 'sendOtp']);
+        Route::post('/verify', [OtpController::class, 'confirmOtp']);
+        Route::post('/resend', [OtpController::class, 'resendOtp']);
 });
 
 Route::post('/register', [RegisterController::class, 'register']);

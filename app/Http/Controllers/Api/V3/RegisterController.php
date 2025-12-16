@@ -31,7 +31,8 @@ class RegisterController extends ResponseController
                 'la_board_id' => ['nullable', 'exists:la_boards,id'],
                 'gender' => ['nullable'],
                 'state' => 'required_if:type,==,' . UserType::Student . ',' . UserType::Teacher,
-                'city' => 'required_if:type,==,' . UserType::Student . ',' . UserType::Teacher,
+                'city' => ['nullable'],
+                //'city' => 'required_if:type,==,' . UserType::Student . ',' . UserType::Teacher,
                 'subjects' =>  ['required_if:type,==,' . UserType::Mentor],
                 'school_code' => 'nullable',
             );

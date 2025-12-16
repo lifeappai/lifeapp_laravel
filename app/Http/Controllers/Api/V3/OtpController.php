@@ -27,7 +27,6 @@ class OtpController extends ResponseController
                 'headers' => $request->headers->all()
             ]);
 
-
             $validate = array(
                 "type" => ['required', Rule::in([UserType::Student, UserType::Mentor, UserType::Teacher])],
                 'mobile_no' => 'required_if:type,==,' . UserType::Student . ',' . UserType::Teacher,
@@ -48,24 +47,34 @@ class OtpController extends ResponseController
                 $mobileNumber = $checkMentorCode->mobile_no;
             }
 
+            // 🔥 RATE LIMIT CHECK (30 sec cooldown)
+            $lastOtp = OtpRequest::where('mobile_no', $mobileNumber)->latest()->first();
+            if ($lastOtp && Carbon::parse($lastOtp->created_at)->diffInSeconds(now()) < 30) {
+                $remaining = 30 - Carbon::parse($lastOtp->created_at)->diffInSeconds(now());
+                return $this->sendError("Please wait {$remaining} seconds before requesting a new OTP.");
+            }
+
             $otpRequest = OtpRequest::create([
                 "mobile_no" => $mobileNumber,
                 "type" => $request->type,
             ]);
+
             $response_data = $this->sentOtp('91', $mobileNumber);
             Log::info('OTP Response:', ['response' => $response_data]);
 
-
             if ($response_data['type'] !== 'success') {
-                return $this->sendError('Not able to sent otp');
+                return $this->sendError('Not able to send OTP');
             }
+
             $response_data['mobile_no'] = $mobileNumber;
-            $otpRequest->request_id  = isset($response_data['request_id']) ? $response_data['request_id'] : "";
+            $otpRequest->request_id  = $response_data['request_id'] ?? "";
             $otpRequest->status = 1;
             $otpRequest->save();
+
             return $this->sendResponse($response_data, "OTP Sent");
+
         } catch (\Exception $exception) {
-            
+
             Log::error('OTP Error:', [
                 'message' => $exception->getMessage(),
                 'trace' => $exception->getTraceAsString()
@@ -148,11 +157,23 @@ class OtpController extends ResponseController
             if ($validator->fails()) {
                 return $this->sendError($validator->errors()->first());
             }
-            $response_data = $this->otpResend('91', $request->mobile_no);
+
+            $mobileNumber = $request->mobile_no;
+
+            // 🔥 RATE LIMIT CHECK (30 sec cooldown)
+            $lastOtp = OtpRequest::where('mobile_no', $mobileNumber)->latest()->first();
+            if ($lastOtp && Carbon::parse($lastOtp->created_at)->diffInSeconds(now()) < 30) {
+                $remaining = 30 - Carbon::parse($lastOtp->created_at)->diffInSeconds(now());
+                return $this->sendError("Please wait {$remaining} seconds before resending OTP.");
+            }
+
+            $response_data = $this->otpResend('91', $mobileNumber);
             if ($response_data['type'] !== 'success') {
                 return $this->sendError('Otp invalid or expired');
             }
-            return $this->sendResponse($response_data, "OTP Resend");
+
+            return $this->sendResponse($response_data, "OTP Resent");
+
         } catch (\Exception $exception) {
             return response()->json([
                 'error' => $exception->getMessage(),

@@ -39,11 +39,26 @@ trait CodeTrait
     public function verifyOtp(string $country_code, int $mobile, int $otp)
     {
         try {
+            
+            $allowedTestNumbers = [
+                "8900000001",
+                "8900000002",
+                "8900000003",
+            ];
+
             if ($otp == '8712') {
-                return [
-                    'type' => 'success'
-                ];
+                if (in_array($mobile, $allowedTestNumbers)) {
+                    return ['type' => 'success'];
+                } else {
+                    return ['type' => 'failed', 'message' => 'Otp invalid or expired'];
+                }
             }
+
+            // if ($otp == '8712') {
+            //     return [
+            //         'type' => 'success'
+            //     ];
+            // }
 
             $response = Http::withHeaders([
                 'Accept' => 'application/json',

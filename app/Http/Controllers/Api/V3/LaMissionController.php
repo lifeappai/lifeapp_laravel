@@ -58,11 +58,12 @@ class LaMissionController extends ResponseController
                 // Teachers: 'for all' (1) + 'for teacher' (2)
                 $missions->whereIn('allow_for', [GameType::ALLOW_FOR['ALL'], GameType::ALLOW_FOR['BY_TEACHER']]);
             } elseif (Auth::user()->type == UserType::Student) {
-                // Students: 'for all' (1) + 'for student' (3)
-                $missions->whereIn('allow_for', [GameType::ALLOW_FOR['ALL'], GameType::ALLOW_FOR['BY_STUDENT']])
+                $missions->where(function ($q) {
+                    $q->whereIn('allow_for', [GameType::ALLOW_FOR['ALL'], GameType::ALLOW_FOR['BY_STUDENT']])
                     ->orWhereHas('laMissionAssigns', function ($query) {
                         $query->where('user_id', Auth::user()->id);
                     });
+                });
             }
 
             if ($request->search_title) {
