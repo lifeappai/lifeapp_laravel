@@ -35,6 +35,7 @@ class RegisterController extends ResponseController
                 //'city' => 'required_if:type,==,' . UserType::Student . ',' . UserType::Teacher,
                 'subjects' =>  ['required_if:type,==,' . UserType::Mentor],
                 'school_code' => 'nullable',
+                'dob' => ['nullable', 'date'],
             );
             
             // Validate 'grades' only if 'type' is 'UserType::Teacher'

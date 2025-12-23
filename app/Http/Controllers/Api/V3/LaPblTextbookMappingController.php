@@ -30,31 +30,12 @@ class LaPblTextbookMappingController extends ResponseController
                 return $this->sendError($validator->errors()->first());
             }
 
-            $teacherId = Auth::id();
-
-            // 🔑 fetch subject-grade pairs for the teacher
-            $teacherGrades = LaTeacherGrade::with(['laSubject', 'laGrade'])
-                ->where('user_id', $teacherId)
-                ->get();
-
-            $subjectGradePairs = $teacherGrades
-                ->filter(fn($tg) => !empty($tg->laSubject) && !empty($tg->laGrade))
-                ->map(fn($tg) => [
-                    'la_subject_id' => $tg->laSubject->id,
-                    'la_grade_id'   => $tg->laGrade->id,
-                ])
-                ->unique(fn($item) => $item['la_subject_id'].'-'.$item['la_grade_id'])
-                ->values();
-
-            if ($subjectGradePairs->isEmpty()) {
-                return $this->sendResponse(['pbl_textbook_mappings' => []], "No mappings found for this teacher.");
-            }
-
-            // 🔑 build query
-            $query = LaPblTextbookMapping::orderBy('id', 'desc')
+            $query = LaPblTextbookMapping::query()
                 ->where('status', StatusEnum::ACTIVE)
-                ->where('language_id', $request->language_id);
+                ->where('language_id', $request->language_id)
+                ->orderBy('id', 'desc');
 
+            // Board filter (supports common mappings)
             if ($request->la_board_id) {
                 $query->where(function ($q) use ($request) {
                     $q->where('la_board_id', $request->la_board_id)
@@ -62,29 +43,22 @@ class LaPblTextbookMappingController extends ResponseController
                 });
             }
 
-            // ✅ filter by teacher's subject-grade pairs
-            $query->where(function ($q) use ($subjectGradePairs) {
-                foreach ($subjectGradePairs as $pair) {
-                    $q->orWhere(function ($subQuery) use ($pair) {
-                        $subQuery->where('la_subject_id', $pair['la_subject_id'])
-                                ->where('la_grade_id', $pair['la_grade_id']);
-                    });
-                }
-            });
-
-            // Optional: if request has explicit subject/grade filters, narrow further
+            // Dropdown subject filter
             if ($request->la_subject_id) {
                 $query->where('la_subject_id', $request->la_subject_id);
             }
+
+            // Dropdown grade filter
             if ($request->la_grade_id) {
                 $query->where('la_grade_id', $request->la_grade_id);
             }
 
             $mappings = $query->get();
 
-            $response['pbl_textbook_mappings'] = LaPblTextbookMappingResource::collection($mappings);
+            return $this->sendResponse([
+                'pbl_textbook_mappings' => LaPblTextbookMappingResource::collection($mappings)
+            ], 'PBL Textbook Mappings');
 
-            return $this->sendResponse($response, "PBL Textbook Mappings");
         } catch (\Exception $exception) {
             return response()->json([
                 'error' => $exception->getMessage(),
